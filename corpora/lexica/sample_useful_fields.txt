@@ -1,0 +1,9 @@
+!Sample_characteristics
+!Sample_description
+!Sample_extract_protocol
+!Sample_growth_protocol
+!Sample_organism
+!Sample_source_name
+!Sample_taxid
+!Sample_title
+!Sample_treatment_protocol

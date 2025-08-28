@@ -1,0 +1,1490 @@
+Dataset_ID	Accession	Curated_by	Overexpression(OE)_Knockout(KO)_Knockdown(KD)_Other-gene-modulation(OM)_Drug(D)_None(N)_Gene-and-Drug(GD)	Sample_annotation(G=sample_id,T=Term)	Control_samples	Perturbed_samples	Comparison_Requirements	Input_Term	Testing_Condition	Perturbagen_terms	Comments
+200232343	GSE232343	Cole	N								
+200131792	GSE131792	Cole	N								
+200220013	GSE220013	Cole	D	T		total				dexamethasone	No control samples in this series
+200171872	GSE171872	Cole	OE	G	GSM5235975	GSM5235976				DTR	Diphtheria toxin receptor transgene, not overexpression of a normal gene
+200115048	GSE115048	Cole	N								
+200249225	GSE249225	Cole	N								
+200221587	GSE221587	Cole	KO	T	control	knockout			pancreatic acinar cells	Trip12	NO_SOFT_FILE
+200221587	GSE221587	Cole	KO	T	Trip12+/+	Trip12fl/fl			pancreatic tumor	Trip12	NO_SOFT_FILE
+200221587	GSE221587	Cole	KO	T	Trip12+/+	Trip12fl/+			pancreatic tumor	Trip12	NO_SOFT_FILE
+200079774	GSE79774	Cole	D	T	ctrl	GSI				GSI	Gamma-secretase inhibitor
+200153791	GSE153791	Cole	KO	T	WT	KO				SAPAP3;Sapap3	
+200197989	GSE197989	Cole	KO	T	Vector	KO				HDAC3	
+200088279	GSE88279	Bess	KD	T		shRNA				TIAL1	No control .
+200262368	GSE262368	Bess;Cole	KO	T	WT	KO	age:			MYT1L	
+200262368	GSE262368	Bess;Cole	KO	T	WT	Het	age:;Sex:			MYT1L	There were 3 genotypes, also male/female samples.
+200192548	GSE192548	Bess	KD	T	siNT	OVOL2				MCF10A	
+200192548	GSE192548	Bess	KD	T	siNT	OVOL1				MCF10A	There were 2 different proteins.
+200167283	GSE167283	Bess	KO	T	Ctrl	FOXD2KO				Foxd2;FOX2D	
+200167283	GSE167283	Bess	KO	T	Ctrl	SATB2KO				Satb2;SATB2	There were 3 genotypes.
+200109257	GSE109257	Bess;Cole	KO	T	Control	KO				Keap1	
+200104590	GSE104590	Bess	N								
+200099042	GSE99042	Bess	N								
+200035857	GSE35857	Bess;Cole	KO	T		Rag2(–/–)				Rag2	There is a confounding variable- the KO samples were pro-B and the WT samples were mature B. Therefore, we consider this experiment to be without any controls.
+200035857	GSE35857	Bess;Cole	OM	T		(Ebf1/+)				Ebf1	No controls.
+200035857	GSE35857	Bess;Cole	KO	T		Ebf1(fl/-)				Ebf1	No controls.
+200120596	GSE120596	Bess;Cole	D	T	drug treatment: Placebo	drug treatment: ibuprofen sodium	timepoint:;gender:			Ibuprofen;ibuprofen sodium	
+200232184	GSE232184	Bess	N								
+200221579	GSE221579	Bess	N								
+200100183	GSE100183	Bess	KD	T	shScr	EP400-2				EP400	
+200100183	GSE100183	Bess	KD	T	shScr	EP400-3				EP400	
+200100183	GSE100183	Bess	KD	T	shScr	shMYCL				MYCL	
+200243600	GSE243600	Bess;Cole	D	T	treatment: Normal Diet	treatment: High Salt	tissue:			High Salt;HSD	
+200233443	GSE233443	Bess	KO	T	WT	KO				GATA	
+200155918	GSE155918	Bess	D	T	NC	LPS	time points:;Sex:			LPS;lipopolysaccharide	
+200155918	GSE155918	Bess	D	T	NC	GARD				GARD;gardiquimod	There are many variables: m/f, # of time points, treatment given.
+200149390	GSE149390	Bess	KO	T	Ctrl	RAD6BKO				RAD6B	
+200079412	GSE79412	Bess	KD	T	AM	AR				FPS1&FPS2	Dual Perturbation.
+200155203	GSE155203	Bess	KO	T	WT	KO				NSUN6	
+200124286	GSE124286	Bess	N								
+200089211	GSE89211	Bess;Cole	KO	T	WT	EED	cell type:	_input		EED	Also, the addition of the comparison requirement was due to a disagreement with RummaGEO, and we concluded that RummaGEO was right.
+200089211	GSE89211	Bess;Cole	KO	T	WT	Lhx5(-109)		_input		Lhx5;LHX5	
+200089211	GSE89211	Bess;Cole	KO	T	WT	Sox1(+35)		_input		Sox1	There were multiple genes knocked out.
+200100861	GSE100861	Bess;Cole	KO	T	control	KO				Lats1/2	Dual Perturbation; gene names are not separated.
+200067310	GSE67310	Bess	N								
+200197862	GSE197862	Bess	OE	T	miR-Control	Pro-miR				miR-148a	
+200162389	GSE162389	Bess;Cole	D	T	NT	PMX53				PMX53	
+200162389	GSE162389	Bess;Cole	D	T	NT	JEP1375				JEP1375	There were 2 treatments, 1 was cell permeable and the other was not.
+200060571	GSE60571	Bess	N								
+200218242	GSE218242	Bess	N							 	
+200151761	GSE151761	Bess	N								
+200159596	GSE159596	Bess	N								There is a separate file indicating which study is which. 
+200104134	GSE104134	Bess	D	T		_tension				DMSO	
+200104134	GSE104134	Bess	D	T		no_tension				nocodazole;benomyl	There was no control.
+200100312	GSE100312	Bess	KO	T	Ctrl	KO				HPIP	
+200100312	GSE100312	Bess	KO	T	Input	ChIPseq				HPIP	NOT_RNA
+200112580	GSE112580	Bess	KD	T	Bcwt	lae1				lae1	
+200112580	GSE112580	Bess	KD	T	Bcwt	vel1*				vel1	
+200101519	GSE101519	Bess	N								The cells themselves were not being treated with the additives.
+200140645	GSE140645	Bess	KO	T	WT_FL_MAC	HZ_MP				c-Maf&MafB	Dual Perturbation
+200140645	GSE140645	Bess	KO	T		HZ_MO				c-Maf&MafB	This sample was not appropriately controlled; there is also a dual perturbation.
+200161764	GSE161764	Bess	D	G	GSM4914153;GSM4914154	GSM4914155;GSM4914156;GSM4914157;GSM4914158;GSM4914159;GSM4914160				carrageenan;Carrageenan	
+200099767	GSE99767	Bess	KO	T	SC5314_YPD_None	SC5314_YPD_Acetic				MIG1	
+200099767	GSE99767	Bess	KO	T	SC5314_YPD_None	SC5314_YPD_Butyric				MIG1	
+200099767	GSE99767	Bess	KO	T	Mig1_YPM_None	Mig1_YPM_Acetic				MIG1	
+200099767	GSE99767	Bess	KO	T	Mig1_YPM_None	Mig1_YPM_Butyric				MIG1	
+200099767	GSE99767	Bess	KO	T	SC5314_YPM_None	SC5314_YPM_Acetic				MIG1	
+200099767	GSE99767	Bess	KO	T	SC5314_YPM_None	SC5314_YPM_Butyric				MIG1	
+200099767	GSE99767	Bess	KO	T	Mig1_YPD_None	Mig1_YPD_Acetic				MIG1	
+200099767	GSE99767	Bess	KO	T	Mig1_YPD_None	Mig1_YPD_Butyric				MIG1	There are 3 variables: genotype (SC51314/Mig1), Media: YPM/YPD, Treatment (none/Acetic/Butyric)
+200234507	GSE234507	Bess	KO	T	control 	KO				Abca1;ABCA1&Abcg1;ABCG1	Dual Perturbation
+200136358	GSE136358	Bess	N								
+200186745	GSE186745	Bess;Cole	KO	T	genotype: Chaf1b (fl/fl)	genotype: Chaf1b (-/-)				CAF-1;Chaf1b	
+200217703	GSE217703	Bess	N								
+200219609	GSE219609	Bess	KO	T		K562				K562	There was no control.
+200248721	GSE248721	Bess	KO	T	WT	N1KO				NR1D1	
+200248721	GSE248721	Bess	KO	T	WT	N2KO				NR2D2	
+200248721	GSE248721	Bess	KO	T	WT	NdKO				NR1D1&NRD2	Dual Perturbation
+200190384	GSE190384	Bess	D	G	GSM5721055;GSM5721056;GSM5721057;GSM5721058;GSM5721059	GSM5721065;GSM5721066;GSM5721067;GSM5721068;GSM5721069				Elacestrant;elacestrant	
+200190384	GSE190384	Bess	D	G	GSM5721055;GSM5721056;GSM5721057;GSM5721058;GSM5721059	GSM5721060;GSM5721061;GSM5721062;GSM5721063;GSM5721064				fulvestrant	
+200190384	GSE190384	Bess	D	T	WT plus e2 and elacestrant	MUT plus e2 and elacestrant				Elacestrant;elacestrant	
+200190384	GSE190384	Bess	D	T	WT plus e2 and fulvestrant	MUT plus e2 and fulvestrant				fulvestrant	Both drugs were tested on MCF7 cells and mutated MCF7 cells
+200053779	GSE53779	Bess	OM	T	WT	MUT3				RBM47	
+200053779	GSE53779	Bess	OM	T	WT	MUT3				doxycycline	RBM47 KO induced by doxycycline.
+200263138	GSE263138	Bess	KO	T	genotype: WT	genotype: HDAC6 KO				HDAC6;Histone deacetylase 6	
+200263138	GSE263138	Bess	OM	T	genotype: WT	genotype: HDAC6 RY				HDAC6;Histone deacetylase 6	The gene was both knocked out and mutated by CRISPR-Cas9
+200101544	GSE101544	Bess	OM	T	wild type	mutant				pde6c	RNA was extracted from a pde6c mutant.
+200249150	GSE249150	Bess;Cole	OE	T	control-R	RORA-OE		-input		RORA	NOT_RNA
+200249150	GSE249150	Bess	OE	T	control-P	PITX1-OE				PITX1	
+200249150	GSE249150	Bess;Cole	OE	T	control_H3K27AC	RORA_H3K27ac				RORA	NOT_RNA
+200249150	GSE249150	Bess;Cole	OE	T	control_H3K27me3	RORA_H3K27me3				RORA	NOT_RNA; There were 2 different ChIP-seqs for RORA-overexpressed LSCs.
+200249150	GSE249150	Bess;Cole	OE	T	control_capture	RORA_OE				RORA	NOT_RNA
+200073436	GSE73436	Bess	OE	T	Wild-type	Knock-in				AMPK	
+200220049	GSE220049	Bess	KO	T	intact IL27RA	KO				IL27RA;IL-27Rα;IL-27	NOT_RNA
+200232240	GSE232240	Bess;Cole	N	T	pre	post					Dual blockade of proteins. However, they do not name the treatment, so the perturbagen term is left blank and the label is N.
+200190655	GSE190655	Bess	OM	T	Cre_	Sf3b1-K700E				Sf3b1	
+200221710	GSE221710	Bess	KO	T	Serum_RNA	Spop_RNA				SPOP	
+200221710	GSE221710	Bess	KO	T	Serum_RNA	Zbtb14_RNA				ZBTB14	
+200221710	GSE221710	Bess	KO	T	Serum_RNA	Mcm3ap_RNA				MCM3AP	
+200221710	GSE221710	Bess	KO	T	Serum_RNA	Kdm5c_RNA				KDM5C	
+200208026	GSE208026	Bess	N								
+200226646	GSE226646	Bess	D	G	GSM7080946;GSM7080947;GSM7080948;GSM7080949;GSM7080950;GSM7080951;GSM7080952	GSM7080953;GSM7080954;GSM7080955;GSM7080956;GSM7080957;GSM7080958;GSM7080959				rhuEPO	
+200225992	GSE225992	Bess	OM	T	wild type	K700E				SF3B1	
+200143241	GSE143241	Bess;Cole	KO	T	Wild type	KO	treatment:			TTP	Results were taken at 0 (untreated), 3, 6, and 9 hours. 
+200143241	GSE143241	Bess;Cole	D	T	Untreated	Lipopolysaccharide 3 hours	genotype:			Lipopolysaccharide;LPS	
+200143241	GSE143241	Bess;Cole	D	T	Untreated	Lipopolysaccharide 6 hours	genotype:			Lipopolysaccharide;LPS	
+200143241	GSE143241	Bess;Cole	D	T	Untreated	Lipopolysaccharide 9 hours	genotype:			Lipopolysaccharide;LPS	
+200241771	GSE241771	Bess	D	T	tibialis_aged_ctrl	tibialis_aged_CHP				Cyclo His-Pro;Cyclo Histidine-Proline;CHP	
+200241771	GSE241771	Bess	D	T	heart_mdx_ctrl	heart_mdx_CHP				Cyclo His-Pro;Cyclo Histidine-Proline;CHP	
+200241771	GSE241771	Bess	D	T	gastrocnemius_mdx_ctrl	gastrocnemius_mdx_CHP				Cyclo His-Pro;Cyclo Histidine-Proline;CHP	CHP was tested on 3 types of tissue.
+200152664	GSE152664	Bess	N								
+200150620	GSE150620	Bess	D	T	Control	Clodronate				Clodronate;clodronate	
+200150620	GSE150620	Bess	D	T	Wheel_	WheelClodronate				Clodronate;clodronate	
+200224038	GSE224038	Bess	D	T	Untreated	CORT				CORT;corticosteroid	
+200202049	GSE202049	Bess	D	T		A				MUC5B static	
+200202049	GSE202049	Bess	D	T		B				LDP static	
+200202049	GSE202049	Bess	D	T		C				MUC5B with shear	
+200202049	GSE202049	Bess	D	T		D 				LDP with shear	There were no controls.
+200118220	GSE118220	Bess;Cole	D	T	OSKM-D-6	OSKM-CBP				CBP30	NOT_RNA
+200118220	GSE118220	Bess;Cole	D	T	U-D-6	U-CBP				CBP30	NOT_RNA
+200118220	GSE118220	Bess;Cole	OE	T	U-D-6	OSKM-D-6				OSKM	NOT_RNA
+200118220	GSE118220	Bess;Cole	OE	T	U-CBP	OSKM-CBP				OKSM	NOT_RNA
+200118220	GSE118220	Bess;Cole	D	T	H3K27ac-DMSO	H3K27ac-CBP30		-input		CBP30	NOT_RNA; This table format is not optimized to parse this particular ChIP-Seq study
+200118220	GSE118220	Bess;Cole	D	T	H3K18ac-DMSO	H3K18ac-CBP30		-input		CBP30	NOT_RNA; This table format is not optimized to parse this particular ChIP-Seq study
+200118220	GSE118220	Bess;Cole	D	T	H3K4me1-DMSO	H3K4me1-CBP30		-input		CBP30	NOT_RNA; This table format is not optimized to parse this particular ChIP-Seq study
+200118220	GSE118220	Bess;Cole	D	T	H3K4me3-DMSO	H3K4me3-CBP30				CBP30	NOT_RNA; There were 4 different histone modifications tested with CBP30.
+200118220	GSE118220	Bess	D	T	OSKM-DMSO	OSKM-CBP30				CBP30	
+200118220	GSE118220	Bess	D	T	OSKM-DMSO	OSKM-ICBP112				ICBP112	
+200118220	GSE118220	Bess	D	T	OSKM-DMSO	OSKM-A485				A485	There were 3 different treatments.
+200118220	GSE118220	Bess;Cole	D	T	Uninf-DMSO	Uninf-CBP30				CBP30	
+200118220	GSE118220	Bess;Cole	D	T	Uninf-DMSO	Uninf-A485				A485	
+200118220	GSE118220	Bess;Cole	OE	T	transfected with: Uninf	transfected with: OSKM	treatment:			OSKM	
+200134295	GSE134295	Bess	OM	T	control 90 minutes dT	csl4-ph 90 minutes dT				CSL4;csl4	
+200134295	GSE134295	Bess	OM	T	control 90 minutes dT	enp1-1 90 minutes dT				ENP1;enp1	
+200134295	GSE134295	Bess	OM	T	control 90 minutes dT	srm1-ts 90 minutes dT				SRM1;srm1	3 strains tested with dT
+200134295	GSE134295	Bess	OM	T	control 90 minutes ribo	csl4-ph 90 minutes ribo				CSL4;csl4	
+200134295	GSE134295	Bess	OM	T	control 90 minutes ribo	enp1-1 90 minutes ribo				ENP1;enp1	
+200134295	GSE134295	Bess	OM	T	control 90 minutes ribo	srm1-ts 90 minutes ribo				SRM1;srm1	4 strains tested with ribo.
+200134295	GSE134295	Bess	OM	T	control 90 minutes ribo	dis3-1 90 minutes ribo				DIS3;dis3	
+200134295	GSE134295	Bess	OM	T	control + empty vector	csl4-ph + empty vector				CSL4;csl4	
+200134295	GSE134295	Bess	OM	T	control + empty vector	enp1-1 + empty vector				ENP1;enp1	
+200134295	GSE134295	Bess	OM	T	control + Pab1GFP vector	csl4-ph + Pab1GFP vector				CSL4;csl4	
+200134295	GSE134295	Bess	OM	T	control + Pab1GFP vector	enp1-1 + Pab1GFP vector				ENP1;enp1	2 types of vectors, 2 strains.
+200125358	GSE125358	Bess;Cole	KO	T	OTII-WT	KO			MLN	Notch1/2;Notch;Notch1	Was tested on 2 different types of tissue.
+200125358	GSE125358	Bess;Cole	KO	T	OTII-WT	KO			Spleen	Notch1/2;Notch;Notch1	
+200083404	GSE83404	Bess	N								
+200127118	GSE127118	Bess;Cole	KD	T		K562				NFATC1	No controls.
+200156156	GSE156156	Bess;Cole	KO	T	WT	KO	treatment:			Lamin B1;lamin B1;LaminB1	Results were taken on both day 5 and 9.
+200137154	GSE137154	Bess	N								
+200211632	GSE211632	Bess	KD	T	Control EE	Pros-depleted EE				Pros;pros	
+200211632	GSE211632	Bess;Cole	OE	T	control oDam	oDam-Pros				oDam;Dam&Pros	NOT_RNA; Overexpression of oDam-Pros fusion.
+200211632	GSE211632	Bess;Cole	OE	T	control oDam	oDam-Fer1				oDam;Dam&Fer1	NOT_RNA; Overexpression of oDam-Fer1 fusion.
+200055735	GSE55735	Bess;Cole	KO	T	Drosha +/+	Drosha -/-				Drosha	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745389;GSM5745390;GSM5745391	GSM5745398;GSM5745399;GSM5745400				sigB	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745389;GSM5745390;GSM5745391	GSM5745407;GSM5745408;GSM5745409				sigD	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745389;GSM5745390;GSM5745391	GSM5745416;GSM5745417;GSM5745418				sigB&sigD&sigE	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745389;GSM5745390;GSM5745391	GSM5745425;GSM5745426;GSM5745427				SigB;sigB&SigD;sigD	4 different genotypes tested with the standard light treatment.
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745392;GSM5745393;GSM5745394	GSM5745401;GSM5745402;GSM5745403				sigB	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745392;GSM5745393;GSM5745394	GSM5745410;GSM5745411;GSM5745412				sigD	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745392;GSM5745393;GSM5745394	GSM5745419;GSM5745420;GSM5745421				sigB&sigD&sigE	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745392;GSM5745393;GSM5745394	GSM5745428;GSM5745429;GSM5745430				sigC&sigD&sigE	4 different genotypes tested with the bright light treatment.
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745395;GSM5745396;GSM5745397	GSM5745404;GSM5745405;GSM5745406				sigB	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745395;GSM5745396;GSM5745397	GSM5745413;GSM5745414;GSM5745415				sigD	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745395;GSM5745396;GSM5745397	GSM5745422;GSM5745423;GSM5745424				sigB&sigD&sigE	
+200192357	GSE192357	Bess;Cole	OM	G	GSM5745395;GSM5745396;GSM5745397	GSM5745431;GSM5745432;GSM5745433				sigC&sigD&sigE	4 different genotypes tested with the high temperature treatment.
+200148297	GSE148297	Bess	KO	T	WTL	FR2aL				GPX4	
+200148297	GSE148297	Bess	KO	T	WTR	FR2aR				GPX4	
+200148297	GSE148297	Bess	KO	T	WTL	FR2dL				GPX4	
+200148297	GSE148297	Bess	KO	T	WTR	FR2dR				GPX4	Left/Right tumor, Mouse 1/2
+200184697	GSE184697	Bess	N								
+200138939	GSE138939	Bess;Cole	D	G	GSM4123937;GSM4123938	GSM4123941;GSM4123942				DHT	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123937;GSM4123938	GSM4123943;GSM4123944				enzalutamide	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123943;GSM4123944	GSM4123939;GSM4123940				DHT	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123941;GSM4123942	GSM4123939;GSM4123940				enzalutamide	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123945;GSM4123946	GSM4123949;GSM4123950				DHT	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123945;GSM4123946	GSM4123951;GSM4123952				enzalutamide	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123951;GSM4123952	GSM4123947;GSM4123948				DHT	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123949;GSM4123950	GSM4123947;GSM4123948				enzalutamide	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123937;GSM4123938	GSM4123939;GSM4123940				DHT&enzalutamide	
+200138939	GSE138939	Bess;Cole	D	G	GSM4123945;GSM4123946	GSM4123947;GSM4123948				DHT&enzalutamide	
+200106626	GSE106626	Bess;Cole	KD	T	G48-siSCR	G48-siETV1				ETV1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	G48-siSCR	G48-siFOXF1				FOXF1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	G882-siSCR	G882-siETV1				ETV1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	G882-siSCR	G882-siFOXF1				FOXF1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	T1-siSCR	T1-siETV1				ETV1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	T1-siSCR	T1-siFOXF1				FOXF1	NOT_RNA;3 genotypes, 2 different genes being knocked down.
+200106626	GSE106626	Bess;Cole	KD	T	GIST-T1-input	GIST-T1-ETV1				ETV1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	GIST-T1-input	GIST-T1-FOXF1				FOXF1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	GIST-T1-input	MDA-PCa2b-ETV1				ETV1	NOT_RNA2 different cell lines.
+200106626	GSE106626	Bess;Cole	KD	T	GIST48-siSCR-ETV1	GIST48-siETV1-ETV1				ETV1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	GIST48-siSCR-FOXF1	GIST48-siETV1-FOXF1				FOXF1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	GIST48-siFOXF1-Input	GIST48-siFOXF1-ETV1				ETV1	NOT_RNA
+200106626	GSE106626	Bess;Cole	KD	T	GIST48-siFOXF1-Input	GIST48-siFOXF1-FOXF1				FOXF1	NOT_RNA; ETV1 or FOXF1 ChIP sequencing in ETV1 or FOXF1 knocked down cells.
+200106626	GSE106626	Bess;Cole	KD	T	GIST48_Day3_siSCR	GIST48_Day3_siETV1				ETV1	
+200106626	GSE106626	Bess;Cole	KD	T	GIST48_Day3_siSCR	GIST48_Day3_siFOXF1				FOXF1	
+200065936	GSE65936	Bess	D	T	TF/Veh	TF/AR				AR-42	
+200065936	GSE65936	Bess	D	T	T/Veh	T/AR				AR-42	Tested in both tumor-free and tumor-bearing mice.
+200141123	GSE141123	Bess;Cole	KO	T	WT	KO		Stage: 12 days after seedling		OsC3'H1	Results taken at both 5 and 12 days. (Correction: WT samples had both timepoints, KO samples only had the 12-day timepoint)
+200118187	GSE118187	Bess	KO	T	WT	KO				Prdm12	
+200172399	GSE172399	Bess	N								
+200171633	GSE171633	Bess;Cole	KD	T	control	antimir409				microRNA-501;mir501	
+200171633	GSE171633	Bess;Cole	KD	T	control	antimir501				microRNA-409;mir409	Independent silencing of 2 types of RNA.
+200192773	GSE192773	Bess	N								
+200244748	GSE244748	Bess	D	T	Pre-sotigalimab, Gene expression	Post-sotigalimab, Gene expression				Sotigalimab;sotiga;sotigalimab	
+200244748	GSE244748	Bess	D	T	Pre-sotigalimab, T cell receptor	Post-sotigalimab, T cell receptor				Sotigalimab;sotiga;sotigalimab	
+200244748	GSE244748	Bess	D	T	Pre-sotigalimab, B cell receptor	Post-sotigalimab, B cell receptor				Sotigalimab;sotiga;sotigalimab	Samples from the other sub-series were not usable.
+200097799	GSE97799	Bess	KO	T	ScPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200097799	GSE97799	Bess	KO	T	ScPHO4 pho2Δ	pho4Δ pho2Δ				pho4	
+200097799	GSE97799	Bess	KO	T	ScPHO4 ScPHO2	ScPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	pho4Δ ScPHO2	pho4Δ pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	SpPHO4 ScPHO2	ScPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	CgPHO4 ScPHO2	CgPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	NdPHO4 ScPHO2	NdPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	CnPHO4 ScPHO2	CnPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	NbPHO4 ScPHO2	NbPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	LkPHO4 ScPHO2	LkPHO4 pho2Δ				pho2	
+200097799	GSE97799	Bess	KO	T	SpPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200097799	GSE97799	Bess	KO	T	CgPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200097799	GSE97799	Bess	KO	T	NdPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200097799	GSE97799	Bess	KO	T	CnPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200097799	GSE97799	Bess	KO	T	NbPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200097799	GSE97799	Bess	KO	T	LkPHO4 ScPHO2	pho4Δ ScPHO2				pho4	
+200098144	GSE98144	Bess;Cole	KO	G	GSM2588475;GSM2588476;GSM2588477;GSM2588478	GSM2588472;GSM2588473;GSM2588474				Dicer	
+200098144	GSE98144	Bess	D	T	Total_brain_MG_LPS_WT	Total_brain_MG_LPS_Dicer				LPS	
+200098144	GSE98144	Bess;Cole	KO	T	Total_brain_MG_WT	Total_brain_MG_Dicer				Dicer	
+200098144	GSE98144	Bess	D	T	Hippocampal_MG_LPS_WT	Hippocampal_MG_LPS_Dicer				LPS	
+200098144	GSE98144	Bess;Cole	KO	T	Hippocampal_MG_WT	Hippocampal_MG_Dicer				Dicer	2 different tissues tested; the other subseries was N.
+200151444	GSE151444	Bess	D	T		d4c7+FR10				FR10	
+200151444	GSE151444	Bess	D	T		d4c7+CsA				CsA;cyclosporin A	
+200151444	GSE151444	Bess	D	T		d4c7+FGF10				FGF10	
+200151444	GSE151444	Bess	D	T		d4c7+FGF2				FGF2	
+200151444	GSE151444	Bess	D	T		E9.5c5 FR10				FR10	
+200151444	GSE151444	Bess	D	T		E9.5c5+CsA				CsA;cyclosporin A	No controls.
+200092870	GSE92870	Bess	KO	T		Testis				ADAR;Adar&ADARB1;Adarb1	No controls.
+200183778	GSE183778	Bess	D	T	NC	HFD				HFD;high fat diet	Not a drug
+200224686	GSE224686	Bess	N								
+200154119	GSE154119	Bess	N								
+200079782	GSE79782	Bess	N								
+200114516	GSE114516	Bess	OM	T	WT	KI				Asxl1	
+200181959	GSE181959	Bess	D	G	GSM5514845;GSM5514846;GSM5514847	GSM5514842;GSM5514843;GSM5514844				dextran sulfate sodium;DSS	
+200181959	GSE181959	Bess	D	G	GSM5514851;GSM5514852;GSM5514853	GSM5514848;GSM5514849;GSM5514850				dextran sulfate sodium;DSS	DSS was given to both liver and colon cells.
+200202827	GSE202827	Bess	N								
+200141872	GSE141872	Bess	D	G	GSM4215248	GSM4215249				Visudyne	
+200099982	GSE99982	Bess	KO	T	wt	nrpmut				nrp1-1&nrp2-1	
+200099982	GSE99982	Bess	OE	T	wt	nrp1ox				nrp1;NRP1	
+200241736	GSE241736	Bess	KO	T		mouse RT				SMARCB1	No controls.
+200229661	GSE229661	Bess	KO	G	GSM7170115;GSM7170116;GSM7170117	GSM7170118;GSM7170119;GSM7170120				Hdac3	NOT_RNA; technically miRNA-Seq
+200229661	GSE229661	Bess	KO	T	H3CTL	H3KO				Hdac3	
+200229661	GSE229661	Bess	KO	T	Bulk RNA_Mouse Cardiac Endothelial Cell - Empty vector	Bulk RNA_Mouse Cardiac Endothelial Cell - Hdac3 Crispr/cas9 Knockout				Hdac3	
+200094110	GSE94110	Bess	KO	T	Control strain	Strain showing downregulation of celA				celA	
+200110328	GSE110328	Bess	KO	T	C1G1	C1G2				thryptophan hyroxylase 2;Tph2	
+200110328	GSE110328	Bess	KO	T	C2G1	C2G2				thryptophan hyroxylase 2;Tph2	
+200110328	GSE110328	Bess	KO	T	C1G1	C1G3				thryptophan hyroxylase 2;Tph2	
+200110328	GSE110328	Bess	KO	T	C2G1	C2G3				thryptophan hyroxylase 2;Tph2	2 variables: Heterozygous/Homozygous knockout of Thp2; no stress/maternal separation.
+200219747	GSE219747	Bess	N								
+200126776	GSE126776	Bess	KO	T	3D_WTPELP	3D_CytoPELP				PELP1	
+200248741	GSE248741	Bess	KO	T	Male, WT, rep	Male, KO				dnd1	
+200248741	GSE248741	Bess	KO	T	Female, WT, rep	Female, KO				dnd1	2 variables: male/female; KO/Control.
+200248741	GSE248741	Bess	OM	T	Male, WT, young sample	Male, dnd1 mutant, young sample				dnd1	
+200248741	GSE248741	Bess	OM	T	Male, WT, old sample	Male, dnd1 mutant, old sample				dnd1	
+200248741	GSE248741	Bess	OM	T	Female, WT, young sample	Female, dnd1 mutant, young sample				dnd1	
+200248741	GSE248741	Bess	OM	T	Female, WT, old sample	Female, dnd1 mutant, old sample				dnd1	3 variables: male/female; young/old; Mutant/Control.
+200202958	GSE202958	Bess	KO	T	mouse tissue, HGG control	mouse tissue, HGG Sox9-LOF				Sox9	
+200202958	GSE202958	Bess	OE	T	mouse tissue, HGG control	mouse tissue, HGG Sox9-GOF				Sox9	
+200202958	GSE202958	Bess	OE	T	mouse tissue, EPN control	mouse tissue, EPN Sox9-GOF				Sox9	2 genotypes; KO/OE
+200029968	GSE29968	Bess	N								
+200188903	GSE188903	Bess;Cole	KO	T	Mog-TDP43 Control	Mog-TDP43 KO				TDP43	
+200188903	GSE188903	Bess;Cole	KO	T	Mobp-TDP43 Control	Mobp-TDP43 KO				TDP43	2 genotypes 
+200247910	GSE247910	Bess	N								
+200115277	GSE115277	Bess;Cole	KD	T	shW_H3K9	shSv210_H3K9				shSv210;Su(var)2-10	NOT_RNA
+200115277	GSE115277	Bess;Cole	KD	T	shW_H3K4	shSv210_H3K4				shSv210;Su(var)2-10	NOT_RNA
+200115277	GSE115277	Bess;Cole	KD	T	shW_H3K36	shSv210_H3K36				shSv210;Su(var)2-10	NOT_RNA
+200115277	GSE115277	Bess;Cole	KD	T	shW_HP1	shSv210_HP1				shSv210;Su(var)2-10	NOT_RNA
+200115277	GSE115277	Bess;Cole	KD	T	shW_polII	shSv210_polII				shSv210;Su(var)2-10	NOT_RNA
+200115277	GSE115277	Bess;Cole	KD	T	shW_RNA-seq	shSmt3_RNAseq				Smt3	
+200115277	GSE115277	Bess;Cole	KD	T	shW_H3K9	shSmt3_H3K9				Smt3	NOT_RNA
+200115277	GSE115277	Bess;Cole	KD	T	shW_RNA-seq	shSv210-2_RNA-seq				Sv210-2;Su(var)2-10	
+200195727	GSE195727	Bess	N								
+200246056	GSE246056	Bess	N								
+200210567	GSE210567	Bess	OM	T		P				K27M;H3.1K27M;H3K27M	No controls.
+200163247	GSE163247	Bess	D	T	SMC 0hr	SMC 24hr				cholesterol	
+200163247	GSE163247	Bess	D	T	SMC 0hr	SMC 48hr				cholesterol	
+200163247	GSE163247	Bess	D	T	SMC 0hr	SMC 72hr				cholesterol	Results collected at 24, 48, and 72 hrs after cholesterol infusion.
+200163247	GSE163247	Bess;Cole	D	T	SMC 5hmc 0hr	SMC 5hmc 24hr				cholesterol	NOT_RNA
+200163247	GSE163247	Bess;Cole	D	T	SMC 5hmc 0hr	SMC 5hmc 48hr				cholesterol	NOT_RNA; Analysis repeated for DNA methylation and DNA hydroxymethylation.
+200154677	GSE154677	Bess	N								
+200112335	GSE112335	Bess;Cole	D	T	WT	R				MN58b	
+200116610	GSE116610	Bess;Cole	KO	T	WT	hsromega66				hsromega66	
+200116610	GSE116610	Bess;cole	OE	T	WT	Hsp90GFP				Hsp83	
+200116610	GSE116610	Bess;Cole	OM	T	WT	Hsp90GFPhsromega66				Hsp83	Recombinant genotype of hsromega66 (KO) and Hsp90GFP (OE).
+200140955	GSE140955	Bess	D	T	Tris	cGAMP				2’3’-cGAMP;cGAMP	
+200140955	GSE140955	Bess	D	T	Tris	cGMP				ci-di-GMP;cyclic-di-GMP;cGMP	
+200164557	GSE164557	Bess	D	T	Healthy	Acute				CPP	
+200164557	GSE164557	Bess	D	T	Healthy	Chronic				CPP	Treated with CPP for 48 hrs (acute) or 11 days (chronic).
+200244152	GSE244152	Bess	D	T	no erythromycin	with erythromycin				erythromycin;EM;Erythromycin	
+200241427	GSE241427	Bess	D	T	Kasumi1, DMSO, 6h	Kasumi1, IBRD9, 6h				I-BRD9;BRD9 bromodomain inhibitor	
+200241427	GSE241427	Bess	D	T	KG1, DMSO, 6h	KG1, IBRD9, 6				I-BRD9;BRD9 bromodomain inhibitor	
+200241427	GSE241427	Bess	D	T	ML1, DMSO, 6h	ML1, IBRD9, 6h				I-BRD9;BRD9 bromodomain inhibitor	
+200241427	GSE241427	Bess	D	T	MV411, DMSO, 6h	MV411, IBRD9, 6h				I-BRD9;BRD9 bromodomain inhibitor	
+200241427	GSE241427	Bess	D	T	U937, DMSO, 6h	U937, IBRD9, 6h				I-BRD9;BRD9 bromodomain inhibitor	5 different cell lines.
+200161160	GSE161160	Bess	KO	G	GSM4890878;GSM4890879;GSM4890880	GSM4890869;GSM4890870;GSM4890871				ITK;IL-2-inducible T cell kinase	
+200161160	GSE161160	Bess	KO	T	pre_trans_WT	ITK_pre				ITK;IL-2-inducible T cell kinase	ITK KO pre and post transfer and Wildtype pre and post transfer.
+200144275	GSE144275	Bess	KO	T	WT_Bone_Marrow_ProB	Rag1ko/ko_Bone_Marrow_ProB				Rag1	
+200144275	GSE144275	Bess	KO	T	WT_Bone_Marrow_ProB	IghTer5H/Ter5H _Bone_Marrow_ProB				Igh	
+200144275	GSE144275	Bess	KO	T	WT_Bone_Marrow_ProB	IghTer5 /wt$SEMICOLON$Rag1ko/ko_Bone_Marrow_ProB				Igh&Rag1	Single peturbations & a dual perturbation of Rag1 and Igh.
+200144275	GSE144275	Bess;Cole	KO	T	genotype: Rag1ko/ko	genotype: IghTer5 /wt$SEMICOLON$Rag1ko/ko				Igh	
+200201524	GSE201524	Bess	D	G	GSM6066067	GSM6066066				CM;human gingival fibroblast-conditioned medium;HGF-CM;hGF-CM	
+200201524	GSE201524	Bess	D	G	GSM6066067	GSM6066068				CM;human gingival fibroblast-conditioned medium;HGF-CM;hGF-CM	Tested with normal and heated CM against control.
+200157057	GSE157057	Bess	N								
+200252568	GSE252568	Bess	D	T	H146-Ctrl	H146-Cis				Cisplatin;cisplatin	
+200252568	GSE252568	Bess	D	T	H146-Ctrl	H146-Sim				simurosertib;Simurosertib	
+200252568	GSE252568	Bess	D	T	H146-Ctrl	H146-Comb				Cisplatin;cisplatin&simurosertib;Simurosertib	
+200252568	GSE252568	Bess	D	T	Lx33-Ctrl	Lx33-Cis				Cisplatin;cisplatin	
+200252568	GSE252568	Bess	D	T	Lx33-Ctrl	Lx33-Sim				simurosertib;Simurosertib	
+200252568	GSE252568	Bess	D	T	Lx33-Ctrl	Lx33-Comb				Cisplatin;cisplatin&simurosertib;Simurosertib	
+200252568	GSE252568	Bess	D	T	Lx761c-Ctrl	Lx761c-Sim				simurosertib;Simurosertib	
+200252568	GSE252568	Bess	D	T	Lx761c-Ctrl	Lx761c-Irino				irinotecan;Irinotecan	
+200252568	GSE252568	Bess	D	T	Lx761c-Ctrl	Lx761c-Comb				Cisplatin;cisplatin&simurosertib;Simurosertib	Drugs tested on 3 cell lines: H146, Lx33, and Lx761c
+200201176	GSE201176	Bess	KD	T	CTRL	NPTX1				NPTX1	
+200152430	GSE152430	Bess	N								
+200181873	GSE181873	Bess	KO	T	Tie2-Ezh2-WT	Tie2-Ezh2-KO				Ezh2	
+200181873	GSE181873	Bess	KO	T	Vav-Ezh2-WT	Vav-Ezh2-KO				Ezh2	Vav and Tie2 KO occur at 2 stages of development (Vav is earlier).
+200225604	GSE225604	Bess	KO	T	WT	21D.del				U1	
+200225604	GSE225604	Bess	KO	T	WT	82Eb.del				U1	
+200225604	GSE225604	Bess	KO	T	WT	95Ca.del				U1	
+200225604	GSE225604	Bess	KO	T	WT	95Cb.del				U1	
+200225604	GSE225604	Bess	KO	T	WT	95Cc.del				U1	5 genotypes used.
+200168453	GSE168453	Bess	N								
+200225839	GSE225839	Bess	N								
+200107697	GSE107697	Bess	N								
+200126313	GSE126313	Bess	OM	T	wild type that treated iron	cir1 mutant that treated iron				cir1;Cir1	
+200126313	GSE126313	Bess	D	T	cir1 mutant (	cir1 mutant that treated iron				iron;FeCl3;Iron	
+200126313	GSE126313	Bess	OM	T	wild type that treated iron	hapX mutant that treated iron				hapX;HapX	
+200126313	GSE126313	Bess	D	T	hapX mutant (	hapX mutant that treated iron				iron;FeCl3;Iron	
+200126313	GSE126313	Bess	OM	G	GSM3596140;GSM3596141;GSM3596142	GSM3596128;GSM3596129;GSM3596130				cir1;Cir1	
+200126313	GSE126313	Bess	OM	G	GSM3596140;GSM3596141;GSM3596142	GSM3596134;GSM3596135;GSM3596136				hapX;HapX	
+200126313	GSE126313	Bess;Cole	D	G	GSM3596140;GSM3596141;GSM3596142	GSM3596137;GSM3596138;GSM3596139				iron;FeCl3;Iron	
+200253742	GSE253742	Bess	D	T	prior	post				osimertinib;Osimertinib	
+200151357	GSE151357	Bess	N								
+200169610	GSE169610	Bess;Cole	OM	T		UM				SF3B1	NOT_RNA; No controls.
+200169610	GSE169610	Bess;Cole	N								RNA-Seq segment was not a controlled experiment
+200221467	GSE221467	Bess	KO	T	WT_N	KO_N				TET1&TET2	
+200221467	GSE221467	Bess	KO	T	WT_24h	KO_24h				TET1&TET2	
+200221467	GSE221467	Bess	KO	T	WT_72h	KO_72h				TET1&TET2	Dual Peturbation, 3 different time points.
+200221467	GSE221467	Bess;Cole	D	T	treatment: control	treatment: mTORi	cell line:			Ink128;mTORi	
+200160382	GSE160382	Bess;Cole	KD	T		large				Entpd8	
+200160382	GSE160382	Bess;Cole	KD	T		lower small				Entpd8	
+200160382	GSE160382	Bess;Cole	KD	T		upper small				Entpd8	No controls.
+200160382	GSE160382	Bess	D	T	stimulated without ATPgS	stimulated with ATPgS				ATPgS	
+200175599	GSE175599	Bess	KO	T	WT	KO				Ezh2	
+200169584	GSE169584	Bess	KO	T	WT, DMSO	IRE1-alpha KO, DMSO				IRE1-alpha;IRE1α;IRE1	
+200169584	GSE169584	Bess	KO	T	WT, Thapsigargin	IRE1-alpha KO, Thapsigargin				IRE1-alpha;IRE1α;IRE1	2 different treatments administered.
+200169584	GSE169584	Bess	D	T	WT, DMSO	WT, Thapsigargin				Thapsigargin	
+200169584	GSE169584	Bess	D	T	IRE1-alpha KO, DMSO	IRE1-alpha KO, Thapsigargin				Thapsigargin	
+200193065	GSE193065	Bess	N								
+200095782	GSE95782	Bess	D	G	GSM2525861;GSM2525862;GSM2525863	GSM2525864;GSM2525865;GSM2525866				Poly I:C	
+200095782	GSE95782	Bess	D	G	GSM2525867;GSM2525868;GSM2525869	GSM2525870;GSM2525871;GSM2525872				Poly I:C	
+200095782	GSE95782	Bess	D	G	GSM2525873;GSM2525874;GSM2525875	GSM2525876;GSM2525877;GSM2525878				Poly I:C	
+200095782	GSE95782	Bess	D	G	GSM2525879;GSM2525880;GSM2525881	GSM2525882;GSM2525883;GSM2525884				Poly I:C	Results recorded at 1 & 2 weeks for 2 genotypes.
+200178623	GSE178623	Bess	N								
+200064813	GSE64813	Bess	N								
+200159450	GSE159450	Bess	N								
+200062913	GSE62913	Bess	N								
+200147818	GSE147818	Bess	KO	G	GSM4446507;GSM4446510;GSM4446517;GSM4446518	GSM4446512;GSM4446514;GSM4446519;GSM4446520				DNMT3A	Female
+200147818	GSE147818	Bess	KO	G	GSM4446509;GSM4446513;GSM4446515	GSM4446508;GSM4446511;GSM4446516				DNMT3A	Male
+200107671	GSE107671	Bess;Cole	KO	G	GSM2875545;GSM2875547	GSM2875546;GSM2875548		input		Setdb1;SETDB1	NOT_RNA
+200107671	GSE107671	Bess	KO	T	RNAseq_WT	RNAseq_cKO				Setdb1;SETDB1	
+200120714	GSE120714	Bess	D	T		KI				anti PD-1;anti-PD-1	No controls.
+200172492	GSE172492	Bess	D	T	HSC from normal liver	HSC from injured liver (1xCCl4)				CCl4	
+200172492	GSE172492	Bess	D	T	HSC from normal liver	HSC from injured liver (4xCCl4)				CCl4	
+200172492	GSE172492	Bess	D	T	HSC from normal liver	HSC from injured liver (12xCCl4)				CCl4	Injections given 1, 4, or 12 times.
+200153747	GSE153747	Bess	D	T	GrgA_NI	GrgA_IND12-16				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	GrgA_NI	GrgA_IND17-21				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	dl1-64GrgA_NI	dl1-64GrgA_IND12-16				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	dl138-165GrgA_NI	dl138-165GrgA_IND12-16				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	GrgA_NI	GrgA_IND1h				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	GrgA_NI	GrgA_IND2h				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	GrgA_NI	GrgA_IND30				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	Euo_NI	Euo_IND12-16				anhydrotetracycline;IND	
+200153747	GSE153747	Bess	D	T	HrcA_NI	HrcA_IND12-16				anhydrotetracycline;IND	2 experimental variables: dosage and genotype.
+200230712	GSE230712	Bess	D	T	DMSO	GSK-126				GSK-126	
+200109805	GSE109805	Bess	N								
+200061439	GSE61439	Bess	N								
+200155130	GSE155130	Bess	N								
+200221023	GSE221023	Bess	KO	T	SKO_RFP	SKO_CRE_RFP				PTEN	
+200221023	GSE221023	Bess	KO	T	SKO_RFP	DKO_CRE_RFP				PTEN&Rb1	Dual Peturbation.
+200221023	GSE221023	Bess	D	T	DKO Vehicle	DKO UK5099				UK5099	
+200221023	GSE221023	Bess	D	G	GSM6840108;GSM6840109;GSM6840110	GSM6840111;GSM6840112;GSM6840113				UK5099	
+200221023	GSE221023	Bess	KO	G	GSM6840108;GSM6840109;GSM6840110	GSM6840114;GSM6840115;GSM6840116				Mpc1	
+200099784	GSE99784	Bess	OM	T	WT-AST	S89G-AST				DMP1;dentin matrix protein1	
+200099784	GSE99784	Bess	OM	T	WT-NSC	S89G-NSC				DMP1;dentin matrix protein1	2 types of cells used.
+200132708	GSE132708	Bess	N								
+200164963	GSE164963	Bess	N								
+200096551	GSE96551	Bess;Cole	OM	T	WT_6h	MT_6h				pykA	
+200096551	GSE96551	Bess;Cole	OM	T	WT_12h	MT_12h				pykA	
+200096551	GSE96551	Bess;Cole	OM	T	WT_24h	MT_24h				pykA	
+200096551	GSE96551	Bess;Cole	OM	T	WT_48h	MT_48h				pykA	4 different time points.
+200201788	GSE201788	Bess	KO	T	WT	KO				AHR;Ahr;aryl hydrocarbon receptor	
+200154711	GSE154711	Bess;Cole	OM	T		POX09752				POX09752	
+200154711	GSE154711	Bess;Cole	OM	T		Ku70				Ku70	No controls, comparing 2 strains.
+200171181	GSE171181	Bess;Cole	KD	T	shCtrl	shSF3B1.1				SF3B1	
+200171181	GSE171181	Bess;Cole	D	T	DMSO 24hr	1.5nM E7107				E7107	
+200171181	GSE171181	Bess;Cole	D	T	DMSO 24hr	3nM E7107 24hr				E7107	2 different dosages.
+200171181	GSE171181	Bess;Cole	D	T	DMSO 15min	3nM E7107 15min				E7107	
+200086377	GSE86377	Bess;Cole	D	T	JGC	JGI				Fusarium oxysporum f. sp. ciceri;Foc	NOT_RNA
+200086377	GSE86377	Bess;Cole	D	T	DVC	DVI				Fusarium oxysporum f. sp. ciceri;Foc	NOT_RNA; 2 different cultivars used.
+200115896	GSE115896	Bess	N								
+200078381	GSE78381	Bess	N								
+200077742	GSE77742	Bess	OM	T	Control	Experiment				TCF4	
+200158018	GSE158018	Bess	KO	G	GSM4785337;GSM4785338;GSM4785339	GSM4785340;GSM4785341;GSM4785342				Bcor;BCL6 co-repressor;BCOR	
+200158018	GSE158018	Bess	KO	G	GSM4785337;GSM4785338;GSM4785339	GSM4785342;GSM4785343;GSM4785344				DNMT3a;Dnmt3a	
+200158018	GSE158018	Bess	KO	G	GSM4785337;GSM4785338;GSM4785339	GSM4785345;GSM4785346				Bcor;BCL6 co-repressor;BCOR&DNMT3a;Dnmt3a	
+200158018	GSE158018	Bess	KO	G	GSM4785347;GSM4785348;GSM4785349	GSM4785350;GSM4785351				Bcor;BCL6 co-repressor;BCOR	
+200158018	GSE158018	Bess	KO	G	GSM4785347;GSM4785348;GSM4785349	GSM4785352;GSM4785353;GSM4785354				DNMT3a;Dnmt3a	
+200158018	GSE158018	Bess	KO	G	GSM4785347;GSM4785348;GSM4785349	GSM4785355;GSM4785356				Bcor;BCL6 co-repressor;BCOR&DNMT3a;Dnmt3a	2 different cell types, 2 different genes perturbed (both single and dual perturbation).
+200158018	GSE158018	Bess;Cole	KO	G	GSM4785342;GSM4785343;GSM4785344	GSM4785345;GSM4785346				Bcor;BCL6 co-repressor;BCOR	
+200158018	GSE158018	Bess;Cole	KO	G	GSM4785340;GSM4785341;GSM4785342	GSM4785345;GSM4785346				DNMT3a;Dnmt3a	
+200158018	GSE158018	Bess;Cole	KO	G	GSM4785352;GSM4785353;GSM4785354	GSM4785355;GSM4785356				Bcor;BCL6 co-repressor;BCOR	
+200158018	GSE158018	Bess;Cole	KO	G	GSM4785350;GSM4785351	GSM4785355;GSM4785356				DNMT3a;Dnmt3a	
+200126630	GSE126630	Bess	N								
+200183190	GSE183190	Bess	N								
+200178707	GSE178707	Bess	N								
+200177681	GSE177681	Bess	N								
+200087670	GSE87670	Bess	N								
+200149270	GSE149270	Bess	D	T	no_treatment	SynAnt49				SynAnt 49;BDTL049	
+200037236	GSE37236	Bess	KO	T	wt	ko				SAMHD1	
+200114090	GSE114090	Bess	N								
+200160415	GSE160415	Bess	KO	T	WT	Mark3-KO				Mark3;MARK3	
+200124954	GSE124954	Bess	KO	T	WilE-dDG	HetE-dDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilE-vDG	HetE-vDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilE-Vis	HetE-Vis				CREB	
+200124954	GSE124954	Bess	KO	T	WilEx-dDG	HetEx-dDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilEx-vDG	HetEx-vDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilEx-Vis	HetEx-Vis				CREB	
+200124954	GSE124954	Bess	KO	T	WilC-dDG	HetC-dDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilC-Vis	HetC-Vis				CREB	
+200124954	GSE124954	Bess	KO	T	WilC-vDG	HetC-vDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilE-dDG	HomE-dDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilE-vDG	HomE-vDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilE-Vis	HomE-Vis				CREB	
+200124954	GSE124954	Bess	KO	T	WilEx-dDG	HomEx-dDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilEx-vDG	HomEx-vDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilEx-Vis	HomEx-Vis				CREB	
+200124954	GSE124954	Bess	KO	T	WilC-dDG	HomC-dDG				CREB	
+200124954	GSE124954	Bess	KO	T	WilC-Vis	HomC-Vis				CREB	
+200124954	GSE124954	Bess	KO	T	WilC-vDG	HomC-vDG				CREB	3 experimental variables: CREB KO/no KO, Dorsal DG/Ventral DG/Visual Cortex, Enriched/Excercise/Control environments.
+200131449	GSE131449	Bess	OM	T	WT	heterozygous				STAG2	
+200131449	GSE131449	Bess	OM	T	WT	null				STAG2	Heterozygous/Homozygous mutation.
+200037933	GSE37933	Bess;Cole	KD	T	Control	PTBP1 siRNA				PTBP1;Ptbp1	
+200037933	GSE37933	Bess;Cole	KD	T	PTBP1 siRNA	PTBP1+PTBP2				PTBP2;Ptbp2	
+200037933	GSE37933	Bess;Cole	KD	T	Control	PTBP1+PTBP2				PTBP1;Ptbp1&PTBP2;Ptbp2	Dual Peturbation.
+200167566	GSE167566	Bess;Cole	OM	T	_control_	_DN_	exposure		tta genotype: tTA+	Nr4a;Nr4A	
+200167566	GSE167566	Bess;Cole	OE	T	tta genotype: tTA-	tta genotype: tTA+	dn genotype:;exposure:			tTA	
+200090988	GSE90988	Bess	D	T	UN	Bic-2h				Bicuculline	
+200090988	GSE90988	Bess	D	T	UN	Bic-6h				Bicuculline	
+200090988	GSE90988	Bess	D	T	UN	TTX-2h				TTX	
+200090988	GSE90988	Bess	D	T	UN	TTX-6h				TTX	
+200090988	GSE90988	Bess;Cole	D	T	GRO-Untreated	GRO-TTX_30				TTX	NOT_RNA
+200090988	GSE90988	Bess;Cole	D	T	GRO-Untreated	GRO-TTX_2				TTX	NOT_RNA
+200090988	GSE90988	Bess;Cole	D	T	GRO-Untreated	GRO-TTX_4				TTX	NOT_RNA; 2 different drugs, 2 types of sequencing, multiple time points.
+200131242	GSE131242	Bess	N								
+200174173	GSE174173	Bess	KO	T		liver-specific knockout of Pten				Pten;PTEN	No control.
+200174173	GSE174173	Bess	KO	T	liver-specific knockout of Pten	liver-specific double knockout of Pten and Scap				Scap;SCAP	Because there is no control (with no KO), this is not a dual pertubation.
+200057391	GSE57391	Bess	KO		Control-Epithelium	Ezh2KO-Epithelium				Ezh2	
+200057391	GSE57391	Bess	KO		Control-Stroma	Ezh2KO-Stroma				Ezh2	2 types of cells.
+200222861	GSE222861	Bess;Cole	OM	G		GSM6934337;GSM6934338;GSM6934339;GSM6934340;GSM6934341				CD19	No control.
+200141835	GSE141835	Bess	N								
+200193373	GSE193373	Bess	D	G	GSM5799120;GSM5799121;GSM5799122	GSM5799123;GSM5799124;GSM5799125				Bepridil;bepridil	
+200193373	GSE193373	Bess	D	G	GSM5799120;GSM5799121;GSM5799122	GSM5799126;GSM5799127;GSM5799128				Bepridil;bepridil	
+200193373	GSE193373	Bess	D	G	GSM5799120;GSM5799121;GSM5799122	GSM5799129;GSM5799130;GSM5799131				Bepridil;bepridil	Four different dosages: 0 (control), 250, 750, 1295 ng/mL.
+200139613	GSE139613	Bess	N								
+200194043	GSE194043	Bess	KO	T	Exd2+/+	Exd2∆				Exd2;EXD2	
+200172493	GSE172493	Bess	D	T	untreated	mCMP-001 + anti-Qbeta				CMP-001	
+200172493	GSE172493	Bess	D	G	GSM5257945	GSM5257947				CMP-001	
+200172493	GSE172493	Bess	D	T	untreated	G10				G10	
+200067214	GSE67214	Bess	N								
+200165497	GSE165497	Bess	KD	T	siN	siHoxa5				Hoxa5;HOXA5	
+200194206	GSE194206	Bess	N								
+200169262	GSE169262	Bess;Cole	KO	T	E14.5 SE WT	E14.5 SE KO				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	T	Adult WT	Adult SE KO				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5191717;GSM5191718;GSM5191719	GSM5191729;GSM5191730;GSM5191731				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5191720;GSM5191721	GSM5191732;GSM5191733				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5191722	GSM5191734				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5191717;GSM5191718;GSM5191719	GSM5191723;GSM5191724;GSM5191725				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5191720;GSM5191721	GSM5191726;GSM5191727				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5191722	GSM5191728				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	T	Vsx2SE WT	Vsx2SE HET				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	T	Vsx2SE WT	Vsx2SE KO				Vsx2	
+200169262	GSE169262	Bess;Cole	KO	G	GSM5614917	GSM5614920;GSM5614921				Vsx2	Multiple genotypes, multiple types of sequencing, heterozygous/homozygous KO
+200118567	GSE118567	Bess	D	T	Nontreated	TOFA-treated				TOFA;etradecyloxy-2-furoic acid	
+200148687	GSE148687	Bess	N								
+200153921	GSE153921	Bess	D	T	Non-induced	Induced D5plus				4OHT	
+200153921	GSE153921	Bess	KD	T	Induced D5plus	Induced + shXPO7				XPO7	
+200106848	GSE106848	Bess	N								
+200233254	GSE233254	Bess	OE	T	C241_Ctrl	C241_NKX				Nkx6-2	
+200233254	GSE233254	Bess	OE	T	KPCt_control	KPCt_NKX				Nkx6-2	
+200233254	GSE233254	Bess	OE	T	Mt4_control	Mt4_NKX				Nkx6-2	3 different cell lines used.
+200173350	GSE173350	Bess	N								
+200114252	GSE114252	Bess	N								
+200217871	GSE217871	Bess	D	T	1mg_18hwoAD	1mg_18h_				Actinomycin D;ActD;AD	
+200109001	GSE109001	Bess	N								
+200096549	GSE96549	Bess;Cole	KD	T	wild type	barc RNAi				Barc;Barricade;barc	
+200096549	GSE96549	Bess;Cole	KD	T	dsmCherry	dsbarc				Barc;Barricade;barc	Tested in 2 types of cells.
+200140378	GSE140378	Bess	KO	T	Control	KO				Abca12	
+200201992	GSE201992	Bess	KO	T	Fl_	Fl g1Hira				Hira;HIRA	
+200201992	GSE201992	Bess	KO	T	Cl19_	Cl19 g1Hira_				Hira;HIRA	2 different genotypes.
+200201992	GSE201992	Bess;Cole	KO	T	Fl_	Cl19_				Fh1	
+200201992	GSE201992	Bess;Cole	KO	T	Fl g1Hira_	Cl19 g1Hira_				Fh1	
+200119988	GSE119988	Bess	N								
+200079638	GSE79638	Bess	KO	T	WT E10.5	Arid3a-/- E10.5				ARID3A;Arid3a	
+200079638	GSE79638	Bess	KO	T	WT E11.5	Arid3a-/- E11.5				ARID3A;Arid3a	
+200128913	GSE128913	Bess	OE	T	GFP	PRMT1				PRMT1	
+200149539	GSE149539	Bess;Cole	D	G	GSM4525515;GSM4525516	GSM4525511;GSM4525512				GSKJ4;GSK-J4	NOT_RNA
+200149539	GSE149539	Bess;Cole	D	G	GSM4525515;GSM4525516	GSM4525513;GSM4525514				GSKJ4;GSK-J4	NOT_RNA; 2 different time points
+200149539	GSE149539	Bess	D	T	CHLA15-Ctrl	CHLA15-Palbociclib				Palbociclib;palbociclib	
+200149539	GSE149539	Bess	D	T	CHLA20-Ctrl	CHLA20- Palbociclib				Palbociclib;palbociclib	
+200149539	GSE149539	Bess	D	T	NB1643-Ctrl	NB1643-Palbociclib				Palbociclib;palbociclib	
+200149539	GSE149539	Bess	D	T	NB1691-Ctrl	NB1691-Palbociclib				Palbociclib;palbociclib	Multiple genotypes.
+200149539	GSE149539	Bess	D	T	GSKJ4_0h	GSKJ4_24h				GSK-J4;GSKJ4	
+200149539	GSE149539	Bess	D	T	GSKJ4_0h	GSKJ4_48h				GSK-J4;GSKJ4	2 different time points
+200149539	GSE149539	Bess;Cole	KD	T	siCtrl	siKDM6B_N1				KDM6B	
+200149539	GSE149539	Bess;Cole	KD	T	siCtrl	siKDM6B_N2				KDM6B	
+200149539	GSE149539	Bess;Cole	KD	T	siCtrl	siKDM6B_N33				KDM6B	3 types of siKDM6B treatment: N1, N2, N33.
+200207427	GSE207427	Bess	N								
+200057170	GSE57170	Bess;Cole	KD	T	EGFP KD	Smarca4 KD				Smarca4	
+200201197	GSE201197	Bess	D	T	, unstimulated	, stimulated				IL-2;iLD-IL-2;interleukin-2	
+200222159	GSE222159	Bess	KO	T	WT_	KO_				AmotL2;amotl2	
+200076860	GSE76860	Bess	D	T	KYSE510_0hr	KYSE510_2hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	KYSE510_0hr	KYSE510_4hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	KYSE510_0hr	KYSE510_6hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	KYSE510_0hr	KYSE510_12hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	KYSE510_0hr	KYSE510_6hr_200				THZ1	
+200076860	GSE76860	Bess	D	T	TE7_0hr	TE7_2hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	TE7_0hr	TE7_4hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	TE7_0hr	TE7_6hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	TE7_0hr	TE7_12hr_50				THZ1	
+200076860	GSE76860	Bess	D	T	TE7_0hr	TE7_6hr_200				THZ1	2 cell lines, 3 time points, 2 dosages. 
+200244723	GSE244723	Bess	N								
+200178099	GSE178099	Bess	OM	T	WT	mutant				hlh-26;HLH-26	
+200263647	GSE263647	Bess	N								
+200254435	GSE254435	Bess	N								
+200204754	GSE204754	Bess	KO	T	control	resistant				KrasG12V	
+200152185	GSE152185	Bess	D	T	HANK1, DMSO	HANK1, Tofa				tofacitinib	
+200152185	GSE152185	Bess	D	T	HANK1, DMSO	HANK1, Ruxo				ruxolitinib	
+200131492	GSE131492	Bess	N								
+200086101	GSE86101	Bess	D	T	unt_2n	cytD_2n				CytochalasinD	
+200086101	GSE86101	Bess	D	T	unt_4n	cytD_4n				CytochalasinD	
+200086101	GSE86101	Bess	D	T	unt_2n	zm_2n				ZM447439;Aurora inhibitor	
+200086101	GSE86101	Bess	D	T	unt_4n	zm_4n				ZM447439;Aurora inhibitor	
+200093989	GSE93989	Bess;Cole	KD	T	PANC-1_control_siControl	PANC-1_control_siSREBP2				SREBP2	NOT_RNA
+200093989	GSE93989	Bess;Cole	KD	T	PANC-1_low_pH_siControl	PANC-1_low_pH_siSREBP2				SREBP2	NOT_RNA
+200093989	GSE93989	Bess;Cole	KD	T	AsPC-1_control_siControl	AsPC-1_control_siSREBP2				SREBP2	NOT_RNA
+200093989	GSE93989	Bess;Cole	KD	T	AsPC-1_low_pH_siControl	AsPC-1_low_pH_siSREBP2				SREBP2	NOT_RNA; Normal vs low PH, 2 different types of cells.
+200093989	GSE93989	Bess;Cole	N	T							RNA-Seq component is classified as N
+200059822	GSE59822	Bess	N								
+200157538	GSE157538	Bess	N								
+200085690	GSE85690	Bess	N								
+200234701	GSE234701	Bess	D	T	Normoxia CTRL	Normoxia IL1b				IL-1b;IL1b	
+200234701	GSE234701	Bess	D	T	Sustained hypoxia CTRL	Sustained hypoxia IL1b				IL-1b;IL1b	
+200234701	GSE234701	Bess	D	T	Intermittent hypoxia CTRL	Intermittent hypoxia IL1b				IL-1b;IL1b	3 different conditions: normoxia, sustained hypoxia, and intermittent hypoxia.
+200217392	GSE217392	Bess;Cole	KO	T	HuR WT	HuR KO				HuR	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT1				CAT1	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT2				CAT2	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT3				CAT3	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT4				CAT4	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT5				CAT5	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT6				CAT6	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT7				CAT7	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT8				CAT8	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT9				CAT9	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT10				CAT10	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT11				CAT11	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT12				CAT12	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT13				CAT13	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT14				CAT14	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT15				CAT15	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT16				CAT16	
+200061549	GSE61549	Bess;Cole	KD	T	HeLa_SCR_KD	HeLa_CAT17				CAT17	
+200061549	GSE61549	Bess	KD	T	MN_SCR_KD	MN_CAT7				CAT7	
+200061549	GSE61549	Bess	KD	T	HeLa_SCR_KD	HeLa_Xist_KD				Xist	
+200061549	GSE61549	Bess	KD	T	HeLa_SCR_KD	HeLa_Suz12_KD				Suz12	
+200061549	GSE61549	Bess	KD	T	HeLa_SCR_KD	HeLa_Bmi1_KD				Bmi1	
+200109322	GSE109322	Bess	D	T	unstimulated	IFN-γ-stimulated				IFN-γ	
+200099780	GSE99780	Bess	N								
+200126171	GSE126171	Bess	OM	T	noDox_WT	noDox_mut				FOXL2	
+200126171	GSE126171	Bess	OM	T	_Dox_WT	_Dox_mut				FOXL2	
+200126171	GSE126171	Bess	D	T	noDox_WT	Dox_WT				Doxycycline;doxycycline	
+200126171	GSE126171	Bess	D	T	noDox_mut	_Dox_mut				Doxycycline;doxycycline	
+200126171	GSE126171	Bess	D	T	noDox_V	_Dox_V				Doxycycline;doxycycline	
+200122303	GSE122303	Bess	D	T	Kelly_DMSO	Kelly_THZ531				THZ531	
+200122303	GSE122303	Bess	D	T	Kelly_E9R_DMSO	Kelly_E9R_THZ531				THZ531	2 types of cells.
+200162954	GSE162954	Bess	KO	G	GSM4968875;GSM4968876;GSM4968877	GSM4968874				CSDE1	CSDE1 haploinsufficiency was existing, not created.
+200054411	GSE54411	Bess	KO	T	Wild-type	Knockout				Dnmt3l;DNMT3L	
+200199115	GSE199115	Bess	KO	T	Eed CTR	Eed matKO				Eed	
+200199115	GSE199115	Bess	KO	T	Eed/Xist CTR	Eed/Xist matDKO				Eed&Xist	Dual peturbation.
+200056962	GSE56962	Bess	OE	G	GSM1372350;GSM1372353;GSM2747814;GSM2747817;GSM2747820;GSM2747823	GSM1372347;GSM2747808;GSM2747811				MCPH1	
+200056962	GSE56962	Bess	OE	G	GSM1372351;GSM1372354;GSM2747815;GSM2747818;GSM2747821;GSM2747824	GSM1372348;GSM2747809;GSM2747812				MCPH1	
+200056962	GSE56962	Bess	OE	G	GSM1372352;GSM1372355;GSM2747816;GSM2747819;GSM2747822;GSM2747825	GSM1372349;GSM2747810;GSM2747813				MCPH1	
+200056962	GSE56962	Bess	OE	G	GSM3273320;GSM3273324;GSM3273328;GSM3273332;GSM3273336	GSM3273304;GSM3273305;GSM3273312;GSM3273316				MCPH1	
+200056962	GSE56962	Bess	OE	G	GSM3273321;GSM3273325;GSM3273329;GSM3273333;GSM3273337	GSM3273306;GSM3273307;GSM3273313;GSM3273317				MCPH1	
+200056962	GSE56962	Bess	OE	G	GSM3273322;GSM3273326;GSM3273330;GSM3273334;GSM3273338	GSM3273308;GSM3273309;GSM3273314;GSM3273318				MCPH1	
+200056962	GSE56962	Bess	OE	G	GSM3273323;GSM3273327;GSM3273331;GSM3273335;GSM3273339	GSM3273310;GSM3273311;GSM3273315;GSM3273319				MCPH1	7 types of tissue.
+200134362	GSE134362	Bess;Cole	D	T	Control PND65	BDE-47 PND65				BDE-47	NOT_RNA
+200134362	GSE134362	Bess;Cole	D	T	Control PND120	BDE-47 PND120				BDE-47	NOT_RNA; Recorded postnatal day 65 & 120.
+200249909	GSE249909	Bess	N								
+200142731	GSE142731	Bess	N								
+200031302	GSE31302	Bess	N								
+200128291	GSE128291	Bess	OM	T	Ctrl	Mut				surfactant protein C	
+200092241	GSE92241	Bess	N								
+200186166	GSE186166	Bess	D	T	PMN-JLRNASEQ	DAMPs				damage-associated molecular patterns;DAMPs	
+200186166	GSE186166	Bess	D	T	PMN-JLRNASEQ	Mito				platelet-derived mitochondria;PLTs-derived mitochondria	
+200049828	GSE49828	Bess	N								
+200216671	GSE216671	Bess	D	T	in vitro, control splenic CD4+ T	in vitro, lycorine treated splenic CD4+ T				lycorine	
+200216671	GSE216671	Bess	D	T	in vitro, control CD4+ T	in vitro, lycorine treated CD4+ T				lycorine	
+200216671	GSE216671	Bess	D	T	in vitro, control CD8+ T	in vitro, lycorine treated CD8+ T				lycorine	
+200211836	GSE211836	Bess	N								
+200130984	GSE130984	Bess	N								
+200207268	GSE207268	Bess	D	T	INTS11-AID cells, Control, starvation	INTS11-AID cells, +IAA, starvation				IAA;auxin	
+200207268	GSE207268	Bess	D	T	INTS11-AID cells, Control, steady	INTS11-AID cells, +IAA, steady				IAA;auxin	
+200207268	GSE207268	Bess	D	T		INTS11-AID cells, +IAA, rescue				IAA;auxin	No control.
+200207268	GSE207268	Bess	D	T	INTS11-AID cells, Control, starvation	INTS11-AID cells, +EGF, starvation				EGF	
+200207268	GSE207268	Bess	D	T	INTS11-AID cells, +EGF, starvation	INTS11-AID cells, +IAA+EGF, starvation				IAA;auxin	
+200207268	GSE207268	Bess	D	T	INTS11-AID cells, +IAA, starvation	INTS11-AID cells, +IAA+EGF, starvation				EGF	
+200207268	GSE207268	Bess	D	T	INTS9-AID cells, Control, starvation	INTS9-AID cells, +IAA, starvation				IAA;auxin	
+200207268	GSE207268	Bess	D	T		CPSF73-AID cells, +IAA, steady				IAA;auxin	No control.
+200207268	GSE207268	Bess;Cole	D	T	INTS11-AID cells, INTS11, Control	INTS11-AID cells, INTS11, +IAA				IAA;auxin	NOT_RNA; Multiple types of cells, drug inducing protein KD.
+200109881	GSE109881	Bess	N								
+200205668	GSE205668	Bess	N								
+200139627	GSE139627	Bess	N								
+200186051	GSE186051	Bess;Cole	OM	T	WT	294C				IRF8	
+200230928	GSE230928	Bess;Cole	KO	T	wt, H3K27ac	INTS10KO_C10, H3K27ac				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	wt, H3K27me3	NTS10KO_C10, H3K27me3				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	wt, H3K4me1	INTS10KO_C10, H3K4me1				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KD	T	shLUC, H3K27ac	shSOX2, H3K27ac				SOX2	NOT_RNA
+200230928	GSE230928	Bess;Cole	KD	T	shLUC, H3K4me1	shSOX2, H3K4me1				SOX2	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	WT, ATAC	INTS10HET2, ATAC				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	iPSC, WT, INTS10	iPSC, INTS10HET2, INTS10				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, INTS10	NPC, INTS10HET2, INTS10				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	iPSC, WT, INTS11	iPSC, INTS10HET2, INTS11				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, INTS11	NPC, INTS10HET2, INTS11				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	iPSC, WT, INTS13	iPSC, INTS10HET2, INTS13				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, INTS13	NPC, INTS10HET2, INTS13				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	iPSC, WT, RNAPII	iPSC, INTS10HET2, RNAPII				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, RNAPII	NPC, INTS10HET2, RNAPII				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	iPSC, WT, H3K27ac	iPSC, INTS10HET2, H3K27ac				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, H3K27ac	NPC, INTS10HET2, H3K27ac				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	iPSC, WT, H3K4me1	iPSC, INTS10HET2, H3K4me1				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, H3K4me1	NPC, INTS10HET2, H3K4me1				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, H3K27me3	NPC, INTS10HET2, H3K27me3				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	NPC, WT, SOX2	NPC, INTS10HET2, SOX2				INTS10	NOT_RNA
+200230928	GSE230928	Bess;Cole	KO	T	WT	INTS10HET	cell line:			INTS10	
+200230928	GSE230928	Bess;Cole	KD	T	shLUC	shINTS10	cell line:			INTS10	
+200230928	GSE230928	Bess;Cole	KD	T	shLUC	shSOX2			cell line: NPC_p3	SOX2	
+200230928	GSE230928	Bess;Cole	KO	T	WT	INTS10KO			cell line: SHSY5Y	INTS10	
+200146382	GSE146382	Bess;Cole	KD	G	GSM4379722	GSM4379723				Mi-2;dMi-2	NOT_RNA
+200146382	GSE146382	Bess;Cole	KD	G	GSM4379724	GSM4379725				Ush	NOT_RNA
+200146382	GSE146382	Bess	KD	T	EGFP rep	Ush rep				Ush	
+200146382	GSE146382	Bess	KD	T	EGFP rep	Mi-2 rep				Mi-2;dMi-2	
+200146382	GSE146382	Bess	KD	T	EGFP (for Ush-B)	Ush-B rep				Ush-B;Ush Isoform B	
+200210352	GSE210352	Bess	N								
+200088841	GSE88841	Bess	KO	T	WT	KO				Aid;AID;activation-induced cytidine deaminase	
+200201979	GSE201979	Bess	KD	T	NC	CDCA3				CDCA3;cell division cycle-associated protein 3	
+200247862	GSE247862	Bess	KO	T	WT CD4 T cells_T0	KO CD4 T cells				Eomes;Eomesodermin	
+200247862	GSE247862	Bess	KO	T	WT CD4 T cells_T12	KO CD4 T cells_T12				Eomes;Eomesodermin	
+200247862	GSE247862	Bess	KO	T	WT CD4 T cells_T24	KO CD4 T cells_T24				Eomes;Eomesodermin	
+200124185	GSE124185	Bess	KO	T	Wild-type	Mtg16 KO				Mtg16	
+200156329	GSE156329	Bess	N								
+200061348	GSE61348	Bess	D	T		Dox2.5				Dox;doxycycline	No control.
+200061348	GSE61348	Bess	D	T	TT-FHAgo2_nodox96h	TT-FHAgo2_+dox48h				Dox;doxycycline	
+200061348	GSE61348	Bess;Cole	OE	T	TT-FHAgo2_nodox96h	TT-FHAgo2_+dox48h				Ago2	
+200241353	GSE241353	Bess	N								
+200063818	GSE63818	Bess	N								
+200117945	GSE117945	Bess	N								
+200200206	GSE200206	Bess;Cole	KD	G	GSM6022036;GSM6022037;GSM6022038	GSM6022033;GSM6022034;GSM6022035				PIP4K2B	
+200165457	GSE165457	Bess	D	T		Cortex				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Cerebellum				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Spinal-cord				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Striatum				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Hippocampus				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Thalamus				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Hypothalamus				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Medulla-pons				Tamoxifen	
+200165457	GSE165457	Bess	D	T		Midbrain				Tamoxifen	No controls.
+200117224	GSE117224	Bess;Cole	KD	T	H3K27ac_Control	H3K27ac_shRVBL2				RUVBL2;RVBL2	NOT_RNA
+200117224	GSE117224	Bess;Cole	KD	T	MYB_Control	MYB_shRVBL2				RUVBL2;RVBL2	NOT_RNA; 2 types of antibodies used.
+200245187	GSE245187	Bess;Cole	OM	T	WT 1928z_Day50	SUV39H1-edited 1928z				SUV39H1;SUV	
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-scRNA Day 0	SUVKO 1928z-scRNA Day 0				SUV39H1;SUV	
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-antibody capture Day 0	SUVKO 1928z-antibody capture Day 0				SUV39H1;SUV	NOT_RNA
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-VDJ Day 0	SUVKO 1928z-VDJ Day 0				SUV39H1;SUV	
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-scRNA Day 9	SUVKO 1928z-scRNA Day 9				SUV39H1;SUV	NOT_RNA
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-antibody capture Day 9	SUVKO 1928z-antibody capture Day 9				SUV39H1;SUV	NOT_RNA
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-VDJ Day 9	SUVKO 1928z-VDJ Day 9				SUV39H1;SUV	
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-scRNA Day 16	SUVKO 1928z-scRNA Day 16				SUV39H1;SUV	
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-antibody capture Day 16	SUVKO 1928z-antibody capture Day 16				SUV39H1;SUV	NOT_RNA
+200245187	GSE245187	Bess;Cole	KO	T	WT 1928z-VDJ Day 16	SUVKO 1928z-VDJ Day 16				SUV39H1;SUV	NOT_RNA; Multiple timepoints.
+200148421	GSE148421	Bess	N								
+200242203	GSE242203	Bess;Cole	OE	T	WT-P2	TBH-P2				Hpl	
+200242203	GSE242203	Bess;Cole	OE	T	WT-P4	TBH-P4				Hpl	Gene specified in the paper, but not in the study metadata; 2 different stages.
+200058765	GSE58765	Bess	KO	T	WT	KO				DOCK8;Dedicator of cytokinesis 8	
+200169163	GSE169163	Bess	KD	T	2h_MO_control	2h_ddx3xb				Ddx3xb;ddx3xb	
+200169163	GSE169163	Bess	KD	T	6h_MO_control	6h_ddx3xb				Ddx3xb;ddx3xb	
+200198024	GSE198024	Bess	N								
+200210878	GSE210878	Bess	KD	T	Ctrl, DRB_10min	NTS11, DRB_10min				INTS11	
+200210878	GSE210878	Bess	KD	T	Ctrl, DRB_20min	INTS11, DRB_20min				INTS11	
+200210878	GSE210878	Bess	KD	T	Ctrl, DRB_30min	INTS11, DRB_30min				INTS11	Multiple timepoints.
+200085277	GSE85277	Bess	N								
+200124049	GSE124049	Bess	N								
+200089843	GSE89843	Bess	N								
+200228152	GSE228152	Bess	N								
+200116813	GSE116813	Bess;Cole	OM	T	Control_Treatment_Vehicle	Mutant_Treatment_Vehicle				DISC1;Disrupted-In-Schizophrenia-1	
+200116813	GSE116813	Bess;Cole	OM	T	Control_Treatment_THC	Mutant_Treatment_THC				DISC1;Disrupted-In-Schizophrenia-1	
+200116813	GSE116813	Bess	D	T	Mutant_Treatment_Vehicle	Mutant_Treatment_THC				Δ9-THC;delta-9-tetrahydrocannabinol	
+200116813	GSE116813	Bess	D	T	Control_Treatment_Vehicle	Control_Treatment_THC				Δ9-THC;delta-9-tetrahydrocannabinol	
+200182888	GSE182888	Bess	KO	T	JMJD6_WT	JMJD6_KO_sg4				JMJD6;Jumonji domain-containing 6	
+200182888	GSE182888	Bess	KO	T	JMJD6_WT	JMJD6_KO_sg2				JMJD6;Jumonji domain-containing 6	2 different sgRNAs
+200193454	GSE193454	Bess	KO	T	WT	Colec11-/-				CL-11;Collectin-11;Colec11	
+200213666	GSE213666	Bess	N								
+200143215	GSE143215	Bess	N								
+200063088	GSE63088	Bess	N								
+200229578	GSE229578	Bess	N								
+200137675	GSE137675	Bess;Cole	KD	G	GSM4084047	GSM4084046				METTL3	
+200137675	GSE137675	Bess;Cole	KO	G	GSM4084049	GSM4084048				ALKBH5	
+200137675	GSE137675	Bess;Cole	OE	G	GSM4084051	GSM4084050				HINT2	
+200224294	GSE224294	Bess	KO	T	WT	KO				NGLY1	
+200224294	GSE224294	Bess	OM	T	WT	NGLY1_519				NGLY1	
+200224294	GSE224294	Bess	OM	T	WT	NGLY1_594				NGLY1	
+200173146	GSE173146	Bess	D	T	DMSO	UM002				UM-002	
+200196818	GSE196818	Bess	N								
+200145801	GSE145801	Bess	OM	T	Wt brain, 5	Mut(scn1Lab) brain, 5				scn1lab;scn1Lab	
+200145801	GSE145801	Bess	OM	T	Wt brain, 8	Mut(scn1Lab) brain, 8				scn1lab;scn1Lab	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D0	Hairpin A-treated mESCs D0				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D3	Hairpin A-treated mESCs D3				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D6	Hairpin A-treated mESCs D6				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D9	Hairpin A-treated mESCs D9				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D0	Hairpin B-treated mESCs D0				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D3	Hairpin B-treated mESCs D3				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D6	Hairpin B-treated mESCs D6				AK143260;Braveheart;Bravheart	
+200039656	GSE39656	Bess	KD	T	Scrambled Hairpin-treated mESCs D9	Hairpin B-treated mESCs D9				AK143260;Braveheart;Bravheart	
+200152506	GSE152506	Bess	OM	T	C57Bl/6J	APPNL-G-F				APP	
+200171657	GSE171657	Bess	D	T	DMSO_Jour2	X4OHT_Jour2				4OHT;hydroxytamoxifen	
+200171657	GSE171657	Bess	D	T	DMSO_Jour4	X4OHT_Jour4				4OHT;hydroxytamoxifen	2 timepoints.
+200171657	GSE171657	Bess;Cole	KO	T	DMSO_Jour2	X4OHT_Jour2				Hnf4α;HNF4a	
+200171657	GSE171657	Bess;Cole	KO	T	DMSO_Jour4	X4OHT_Jour4				Hnf4α;HNF4a	
+200088187	GSE88187	Bess	N								
+200110042	GSE110042	Bess	N								
+200182735	GSE182735	Bess	N								
+200207442	GSE207442	Bess	D	T	Model	AMN31				compound 13;anti-inflammatory compounds;Anti-inflammatory compounds	
+200207442	GSE207442	Bess;Cole	D	T	Control	Model				LPS	
+200064779	GSE64779	Bess	KO	T	CD4SP_Control	CD4SP_Id3KO				Id3	
+200064779	GSE64779	Bess	KO	T	CD4SP_Control	CD4SP_dKO				Id3&Id2	
+200064779	GSE64779	Bess	KO	T		lymphoma				Id3&Id2	No control.
+200133381	GSE133381	Bess	KD	T	MCF7_Oestrogen_3h_siCTRL	MCF7_Oestrogen_3h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_EtOH_3h_siCTRL	MCF7_EtOH_3h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_Oestrogen_3h_siCTRL	T47D_Oestrogen_3h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_EtOH_3h_siCTRL	T47D_EtOH_3h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_Oestrogen_3h_siCTRL	MDA-MB-231_Oestrogen_3h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_EtOH_3h_siCTRL	MDA-MB-231_EtOH_3h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_Oestrogen_6h_siCTRL	MCF7_Oestrogen_6h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_EtOH_6h_siCTRL	MCF7_EtOH_6h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_Oestrogen_6h_siCTRL	T47D_Oestrogen_6h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_EtOH_6h_siCTRL	T47D_EtOH_6h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_Oestrogen_3h_siCTRL	MDA-MB-231_Oestrogen_6h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_EtOH_6h_siCTRL	MDA-MB-231_EtOH_6h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_Oestrogen_12h_siCTRL	MCF7_Oestrogen_12h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_EtOH_12h_siCTRL	MCF7_EtOH_12h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_Oestrogen_12h_siCTRL	T47D_Oestrogen_12h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_EtOH_12h_siCTRL	T47D_EtOH_12h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_Oestrogen_12h_siCTRL	MDA-MB-231_Oestrogen_12h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_EtOH_12h_siCTRL	MDA-MB-231_EtOH_12h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_Oestrogen_24h_siCTRL	MCF7_Oestrogen_24h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MCF7_EtOH_12h_siCTRL	MCF7_EtOH_24h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_Oestrogen_24h_siCTRL	T47D_Oestrogen_24h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	T47D_EtOH_24h_siCTRL	T47D_EtOH_24h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_Oestrogen_24h_siCTRL	MDA-MB-231_Oestrogen_24h_siZMIZ1				ZMIZ1	
+200133381	GSE133381	Bess	KD	T	MDA-MB-231_EtOH_24h_siCTRL	MDA-MB-231_EtOH_24h_siZMIZ1				ZMIZ1	4 experimental variables: ZMIZ1 KD/ctrl, 2 treatments (EtOH/Oestrogen), 4 time points, 3 cell lines.
+200133381	GSE133381	Bess;Cole	D	T	treatment: EtOH	treatment: Oestrogen	cell line:;time point of treatment:;condition:			Oestrogen	
+200243650	GSE243650	Bess	D	T	rTg4510 [C	rTg4510+3TC				3TC;Lamivudine	
+200140137	GSE140137	Bess	OE	T	Col-0	35S-COLDAIR				COLDAIR	
+200141035	GSE141035	Bess	N								
+200122843	GSE122843	Bess;Cole	D	T	_DMSO_	400nM IBET				BET inhibitor;IBET;I-BET	
+200122843	GSE122843	Bess;Cole	D	T	_DMSO_	600nM IBET				BET inhibitor;IBET;I-BET	
+200122843	GSE122843	Bess;Cole	D	T	_DMSO_	800nM IBET				BET inhibitor;IBET;I-BET	
+200122843	GSE122843	Bess;Cole	D	T	_DMSO_	1000nM IBET				BET inhibitor;IBET;I-BET	
+200120201	GSE120201	Bess	D	T	Bru_Dox_r	Bru_Dox_DMOG				DMOG	
+200120201	GSE120201	Bess	D	T	Bru_H2O_r	Bru_H2O_DMOG				DMOG	
+200120201	GSE120201	Bess	D	T	Bru_H2O_DMOG	Bru_Dox_DMOG				Dox;doxycycline	
+200120201	GSE120201	Bess	D	T	Bru_Dox_r	Bru_Dox_DRB10				DRB	
+200120201	GSE120201	Bess	D	T	Bru_Dox_r	Bru_Dox_DRB20				DRB	
+200120201	GSE120201	Bess	D	T	Bru_Dox_r	Bru_Dox_DRB5				DRB	
+200120201	GSE120201	Bess	D	T	Bru_H2O_r	Bru_H2O_DRB10				DRB	
+200120201	GSE120201	Bess	D	T	Bru_H2O_r	Bru_H2O_DRB20				DRB	
+200120201	GSE120201	Bess	D	T	Bru_H2O_r	Bru_H2O_DRB5				DRB	Multiple timepoints.
+200120201	GSE120201	Bess	D	T	Bru_H2O_r	Bru_Dox_r				Dox;doxycycline	
+200120201	GSE120201	Bess;Cole	D	T	polII_Dox_r	polII_Dox_DRB0				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_Dox_r	polII_Dox_DRB10				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_Dox_r	polII_Dox_DRB20				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_Dox_r	polII_Dox_DRB5				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_H2O_r	polII_H2O_DRB0				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_H2O_r	polII_H2O_DRB10				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_H2O_r	polII_H2O_DRB20				DRB	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	polII_H2O_r	polII_H2O_DRB5				DRB	NOT_RNA; Multiple timepoints.
+200120201	GSE120201	Bess;Cole	D	T	polII_H2O_r	polII_Dox_r				Dox;doxycycline	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	GRO_H2O	GRO_Dox				Dox;doxycycline	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	NET_H2O	NET_Dox				Dox;doxycycline	NOT_RNA
+200120201	GSE120201	Bess;Cole	D	T	Ser2_H2O	Ser2_Dox				Dox;doxycycline	NOT_RNA
+200120201	GSE120201	Bess;Cole	OM	T	wt_Dox_avi	dn_Dox_avi		input		TFIIS	NOT_RNA
+200120201	GSE120201	Bess;Cole	OM	T	wt_Dox_polII	dn_Dox_polII		input		TFIIS	NOT_RNA
+200239661	GSE239661	Bess;Cole	KO	T	wt	BC				Tent5b;TENT5B&Tent5c;TENT5C	Dual peturbation
+200144291	GSE144291	Bess	D	T	Naïve	ABX				antibiotics	
+200144291	GSE144291	Bess	D	T	ABX	PBS				phosphate buffered saline;PBS	
+200144291	GSE144291	Bess	D	T	ABX	AXPN				amoxapine;AXPN	
+200144291	GSE144291	Bess	D	T	ABX	DXP				doxapram;DXP	
+200144291	GSE144291	Bess	D	T	ABX	TFP				trifluoperazine;TFP	Multiple drugs tested
+200078961	GSE78961	Bess	KO	T	RNA of TSC2+/+ control generated from hESC cell line 2	RNA of TSC2+/- cell line generated from hESC cell line 2				TSC2	
+200078961	GSE78961	Bess	KO	T	RNA of TSC2+/+ control generated from hESC cell line 2	RNA of TSC2-/- cell line generated from hESC cell line 2				TSC2	
+200078961	GSE78961	Bess	KO	T	RNA of TSC2+/+ control generated from hESC cell line 3	RNA of TSC2+/- cell line generated from hESC cell line 3				TSC2	
+200078961	GSE78961	Bess	KO	T	RNA of TSC2+/+ control generated from hESC cell line 3	RNA of TSC2-/- cell line generated from hESC cell line 3				TSC2	
+200078961	GSE78961	Bess	KO	T	(RPF) of TSC2+/+ control generated from hESC cell line 2	(RPF) of TSC2+/- cell line generated from hESC cell line 2				TSC2	
+200078961	GSE78961	Bess	KO	T	(RPF) of TSC2+/+ control generated from hESC cell line 2	(RPF) of TSC2-/- cell line generated from hESC cell line 2				TSC2	
+200078961	GSE78961	Bess	KO	T	(RPF) of TSC2+/+ control generated from hESC cell line 3	(RPF) of TSC2+/- cell line generated from hESC cell line 3				TSC2	
+200078961	GSE78961	Bess	KO	T	(RPF) of TSC2+/+ control generated from hESC cell line 3	(RPF) of TSC2-/- cell line generated from hESC cell line 3				TSC2	2 cell lines, total RNA/Ribosome protected fragments.
+200078961	GSE78961	Bess	D	T	TSC2+/+ cells (number 15) treated with DMSO	TSC2+/+ cells (number 15) treated with AZD-8055				AZD-8055	
+200078961	GSE78961	Bess	D	T	TSC2+/+ cells (number 15) treated with DMSO	TSC2+/+ cells (number 15) treated with Rapamycin				Rapamycin	
+200078961	GSE78961	Bess	D	T	TSC2+/+ cells (number 16) treated with DMSO	TSC2+/+ cells (number 16) treated with AZD-8055				AZD-8055	
+200078961	GSE78961	Bess	D	T	TSC2+/+ cells (number 16) treated with DMSO	TSC2+/+ cells (number 16) treated with Rapamycin				Rapamycin	
+200078961	GSE78961	Bess	D	T	TSC2-/- cells (number 19) treated with DMSO	TSC2-/- cells (number 19) treated with AZD-8055				AZD-8055	
+200078961	GSE78961	Bess	D	T	TSC2-/- cells (number 19) treated with DMSO	TSC2-/- cells (number 19) treated with Rapamycin				Rapamycin	
+200078961	GSE78961	Bess	D	T	TSC2-/- cells (number 19) treated with DMSO	TSC2-/- cells (number 20) treated with AZD-8055				AZD-8055	
+200078961	GSE78961	Bess	D	T	TSC2-/- cells (number 19) treated with DMSO	TSC2-/- cells (number 20) treated with Rapamycin				Rapamycin	2 genotypes, 4 cell lines, 2 drugs
+200096922	GSE96922	Bess;Cole	OM	T	genotype: HWT	genotype: K36R				H3K36;K36	Multiple types of sequencing used.
+200129226	GSE129226	Bess	N								
+200192585	GSE192585	Bess;Cole	KO	T	genotype: WT	genotype: KO	celltype:			notch3;Notch3	
+200192585	GSE192585	Bess;Cole	KO	T	genotype: WT	genotype: Het	celltype:			notch3;Notch3	
+200209912	GSE209912	Bess	N								
+200219682	GSE219682	Bess	N								
+200155383	GSE155383	Bess	N								
+200088300	GSE88300	Bess	N								
+200123862	GSE123862	Bess;Cole	OM	T	N2 day 4	mir-83 day 4				miR-83;mir-83	
+200123862	GSE123862	Bess;Cole	OM	T	N2 day 12	mir-83 day 12				miR-83;mir-83	Results observed on day 4 and 12.
+200146072	GSE146072	Bess	KO	T	con	kiaa1522				KIAA1522;kiaa1522	
+200191102	GSE191102	Bess	N								
+200163852	GSE163852	Bess	N								
+200172629	GSE172629	Bess	N								
+200227848	GSE227848	Bess	D	T	ctrl	DMOG				DMOG;dimethyloxalylglycine	
+200245658	GSE245658	Bess	OE	T	WT_HP	5xFAD_HP				APP	
+200245658	GSE245658	Bess	OE	T	WT_M	5xFAD_M				APP	
+200245658	GSE245658	Bess	OE	T	WT_LEC	5xFAD_LEC				APP	3 types of brain tissues used.
+200158098	GSE158098	Bess	KO	T	WT	runx1				runx1;RUNX1	
+200185369	GSE185369	Bess	D	T	CTRL	treatment: antibiotic-treated (8 days) (ABX)				antibiotic;ABX	
+200185369	GSE185369	Bess;Cole	D	T	treatment: antibiotic-treated (8 days) (ABX)	LP				Lactiplantibacillus plantarum;LP	"LP" received antibiotics AND LP.
+200185369	GSE185369	Bess;Cole	D	T	CTRL	LP				Lactiplantibacillus plantarum;LP&antibiotic-treated;ABX	
+200107562	GSE107562	Bess	N								
+200163946	GSE163946	Bess	D	T	1.5h-PBS	1.5h-IL2				mIL-2;IL-2	
+200163946	GSE163946	Bess	D	T	1.5h-PBS	1.5h-FP				mIL-2/CD25;FP	
+200163946	GSE163946	Bess	D	T	4h-PBS	4h-IL2				mIL-2;IL-2	
+200163946	GSE163946	Bess	D	T	4h-PBS	4h-FP				mIL-2/CD25;FP	
+200163946	GSE163946	Bess	D	T	16h-PBS	16h-IL2				mIL-2;IL-2	
+200163946	GSE163946	Bess	D	T	16h-PBS	16h-FP				mIL-2/CD25;FP	
+200163946	GSE163946	Bess	D	T	72h-PBS	72h-IL2				mIL-2;IL-2	
+200163946	GSE163946	Bess	D	T	72h-PBS	72h-FP				mIL-2/CD25;FP	
+200163946	GSE163946	Bess	D	T	168h-PBS	168h-FP				mIL-2/CD25;FP	5 timepoints.
+200163946	GSE163946	Bess	D	T	High-Dose-PBS	High-Dose-IL2				mIL-2;IL-2	
+200214412	GSE214412	Bess	KO	T	WT	ABCG1KO				ABCG1	
+200214412	GSE214412	Bess	KO	T	WT	LysM-DKO				Epsins;Epsin	
+200084252	GSE84252	Bess	OM	G	GSM2230306;GSM2230307;GSM2230308;GSM2230309;GSM2230326;GSM2230327;GSM2230328;GSM2230329;GSM2230330;GSM2230331;GSM2230332;GSM2230333;GSM2230334;GSM2230335;GSM2230336;GSM2230337;GSM2230342;GSM2230343;GSM2230344;GSM2230342;GSM2230354;GSM2230355;GSM2230356;GSM2230357;GSM2230358;GSM2230359;GSM2230360;GSM2230361;GSM2230362;GSM2230363;GSM2230364;GSM2230365	GSM2230310;GSM2230311;GSM2230312;GSM2230313;GSM2230314;GSM2230315;GSM2230316;GSM2230317;GSM2230318;GSM2230319;GSM2230320;GSM2230321;GSM2230322;GSM2230323;GSM2230324;GSM2230325;GSM2230338;GSM2230339;GSM2230340;GSM2230341;GSM2230346;GSM2230347;GSM2230348;GSM2230349;GSM2230350;GSM2230351;GSM2230352;GSM2230353;GSM2230366;GSM2230367;GSM2230368;GSM2230369				B6NJ;B6J	B6NJ is the allele after it has been mutated.
+200117020	GSE117020	Bess	N								
+200079735	GSE79735	Bess	KD	T	3691_NT	3691_shRBPJ				RBPJ	
+200079735	GSE79735	Bess	D	T	3691_DMSO	3691_DAPT_5um				DAPT	
+200079735	GSE79735	Bess	D	T	3691_DMSO	3691_DAPT_10um				DAPT	2 dosages.
+200079735	GSE79735	Bess	KD	T	DMSO_NT	DMSO_shRBPJ				RBPJ	
+200079735	GSE79735	Bess	KD	T	DAPT_NT	DAPT_shRBPJ				RBPJ	
+200120874	GSE120874	Bess	KO	G	GSM3735153;GSM3735154	GSM3735151;GSM3735152				Bcl11b	
+200120874	GSE120874	Bess	KO	G	GSM3735153;GSM3735154	GSM3735155;GSM3735156				Bcl11b	2 experimental variables: Bcl11b KO/WT, EAE/no EAE.
+200207085	GSE207085	Bess	N								
+200136905	GSE136905	Bess	D	T	Stim	FRC				FRC	
+200136905	GSE136905	Bess	D	T	Stim	IL6				IL-6	Both ATAC-seq and RNA-seq preformed.
+200225570	GSE225570	Bess	N								
+200260787	GSE260787	Bess	D	T	UT 2hr	OM100 2hr				OM-85	
+200260787	GSE260787	Bess	D	T	UT 2hr	OM300 2hr				OM-85	
+200260787	GSE260787	Bess	D	T	UT 2hr	OM900 2hr				OM-85	
+200260787	GSE260787	Bess	D	T	UT 8hr	OM100 8hr				OM-85	
+200260787	GSE260787	Bess	D	T	UT 8hr	OM300 8hr				OM-85	
+200260787	GSE260787	Bess	D	T	UT 8hr	OM900 8hr				OM-85	Multiple dosages/timepoints.
+200260787	GSE260787	Bess	D	T	UT+ISO 2hr	OM300+ISO 2hr				OM-85	
+200260787	GSE260787	Bess	D	T	UT+ISO 2hr	Pam3+ISO 2hr				Pam3CSK4	
+200260787	GSE260787	Bess	D	T	UT+ISO 2hr	LPS+ISO 2hr				LPS	
+200260787	GSE260787	Bess	D	T	OM300 2hr	OM300+Anti-TLR2 2hr				Anti-TLR2 Ab;TLR2	
+200260787	GSE260787	Bess	D	T	OM300 2hr	OM300+Anti-TLR4 2hr				Anti-TLR4 Ab;TLR4	
+200260787	GSE260787	Bess	D	T	OM300 2hr	OM300+Anti-TLR2/4 2hr				Anti-TLR2 Ab;TLR2&Anti-TLR4 Ab;TLR4	
+200227117	GSE227117	Bess	N								
+200111150	GSE111150	Bess	N								
+200154638	GSE154638	Bess	OM	T		POX01907				POX01907	
+200154638	GSE154638	Bess	OM	T		Ku70				Ku70	No controls.
+200185042	GSE185042	Bess	KO	T	WT	KO				Nrg4;Neuregulin 4;NRG4	
+200185042	GSE185042	Bess;Cole	D	G	GSM6061463;GSM6061464;GSM6061465	GSM6061466;GSM6061467				hNRG4-Fc;Fc-Nrg4	
+200155008	GSE155008	Bess	D	T	control	talc				talc;Talc	
+200171998	GSE171998	Bess	N								
+200161540	GSE161540	Bess	D	T	Con	TTX				tetrodotoxin;TTX	
+200133028	GSE133028	Bess	N								
+200104547	GSE104547	Bess;Cole	KO	T	Wildtype H3K9	AGO1 deletion H3K9				AGO1	NOT_RNA
+200104547	GSE104547	Bess;Cole	KO	T	Wildtype H3K9	CCR4 deletion H3K9				CCR4	NOT_RNA
+200104547	GSE104547	Bess;Cole	OM	T	CCR4 deletion H3K9	CCR4 deletion and feb1 mutant				feb1;Feb1	NOT_RNA
+200104547	GSE104547	Bess;Cole	KO	T	genotype/variation: wildtype	genotype/variation: ccr4D			growth temperature: 18C	CCR4;ccr4	
+200104547	GSE104547	Bess;Cole	KO	T	genotype/variation: wildtype	genotype/variation: red1D			growth temperature: 18C	RED1;red1	
+200104547	GSE104547	Bess;Cole	KO	T	genotype/variation: wildtype	genotype/variation: ago1D			growth temperature: 18C	AGO1;ago1	
+200104547	GSE104547	Bess;Cole	OM	T	genotype/variation: ccr4D	genotype/variation: CCR4D_feb1			growth temperature: 18C	FEB1;feb1	
+200104547	GSE104547	Bess;Cole	KO	T	genotype/variation: wildtype	genotype/variation: clr6D			growth temperature: 30C	CLR6;clr6	UNUSABLE: Temperature in title does not match temperature in characteristics
+200104547	GSE104547	Bess;Cole	KO	T	genotype/variation: wildtype	genotype/variation: clr4D			growth temperature: 30C	CLR4;clr4	
+200104547	GSE104547	Bess;Cole	KO	T	genotype/variation: wildtype	genotype/variation: rrp6D			growth temperature: 18C	RRP6;rrp6	
+200104547	GSE104547	Bess;Cole	D	T	WT cells	2,2′-Bipyridyl			growth temperature: 18C	2,2′-Bipyridyl	
+200104547	GSE104547	Bess;Cole	KO	T	RNA sequencing in CCR4 deleted cells at 18C	Fep1D_Dip				FEP1;Fep1	Dual perturbation
+200104547	GSE104547	Bess;Cole	D	T	RNA sequencing in CCR4 deleted cells at 18C	Fep1D_Dip				Dip;DIP	Dual perturbation
+200208445	GSE208445	Bess	N								
+200255633	GSE255633	Bess	N								
+200059611	GSE59611	Bess	D	T	background	Orb2B_overexpressing				hygromycin B	
+200059611	GSE59611	Bess;Cole	OE	T	background	Orb2B_overexpressing				Orb2B	
+200070101	GSE70101	Bess	N								
+200126027	GSE126027	Bess	OM	T	WT	KS1				Kmt2d	
+200179491	GSE179491	Bess	KO	T	WT	KO				Brd4;BRD4	
+200144360	GSE144360	Bess	KO	T	WT	KO				miR140;miR-140;MiR140;Mir140	
+200166328	GSE166328	Bess	N								
+200163007	GSE163007	Bess;Cole	OM	T	genotype: wild type	asil1-1-b			ecotype: Columbia-0	ASIL1;asil1	
+200163007	GSE163007	Bess;Cole	OM	T	genotype: wild type	asil2-1-b			ecotype: Columbia-0	ASIL2;asil2	
+200163007	GSE163007	Bess;Cole	OM	T	genotype: wild type	asil2-2-b			ecotype: Landsberg erecta	ASIL2;asil2	
+200163007	GSE163007	Bess;Cole	OM	T	asil1-1-b	asil1-1-2-1-b			ecotype: Columbia-0	ASIL1;asil1	
+200213352	GSE213352	Bess	N								
+200139321	GSE139321	Bess	D	T	Control	cAMP				CPT-cAMP	
+200139321	GSE139321	Bess	KO	T	Parental	ΔSOX10				SOX10	
+200196139	GSE196139	Bess	KO	T	Wild-type time 0	KO time 0				Cdc14ab;CDC14A;CDC14	
+200196139	GSE196139	Bess	KO	T	Wild-type time 5	KO time 5				Cdc14ab;CDC14A;CDC14	2 time points.
+200134098	GSE134098	Bess	N								
+200247992	GSE247992	Bess	OM	T		H				H3K36	No controls.
+200247992	GSE247992	Bess;Cole	OE	T	Krt14-Cre(-)	Krt14-Cre(+)				Krt14	
+200163232	GSE163232	Bess	D	T	DMSO	8800				H3B-8800;8800	
+200099405	GSE99405	Bess	N								
+200045137	GSE45137	Bess	N								
+200234495	GSE234495	Bess	KO	T	Loxp Chow	Cre Chow				Acot2	
+200234495	GSE234495	Bess	KO	T	Loxp Fasted	Cre Fasted				Acot2	
+200234495	GSE234495	Bess	KO	T	Loxp HFD	Cre HFD				Acot2	3 different diet plans: regular chow, fasted, and high fat diet.
+200142034	GSE142034	Bess	N								
+200086381	GSE86381	Bess	N								
+200248760	GSE248760	Bess	N								
+200173829	GSE173829	Bess;Cole	OM	T	WT	VE				BRAF	
+200101939	GSE101939	Bess	KO	T	WT	KO				H2A.Z;H2AZ	
+200211466	GSE211466	Bess	KO	G	GSM6473055;GSM6473056;GSM6473057;GSM6473058;GSM6473059	GSM6473047;GSM6473048;GSM6473049;GSM6473050;GSM6473051				Vhl&Trp53&Rb1	3 genes knocked out simultaneously.
+200221569	GSE221569	Bess	N								
+200232044	GSE232044	Bess	D	T	Untreated	Baricitinib				Baricitinib;BARI	
+200232044	GSE232044	Bess	D	T	Untreated	Upadacitinib				Upadacitinib;UPA	2 different drugs tested.
+200207928	GSE207928	Bess	KO	T	3m-Control	3m-GliaKO				ABCA1;Abca1;ATP-binding cassette transporter 1	
+200207928	GSE207928	Bess	KO	T	12m-Control	12m-GliaKO				ABCA1;Abca1;ATP-binding cassette transporter 1	2 time points.
+200178774	GSE178774	Bess	D	G	GSM5397468;GSM5397469;GSM5397470;GSM5397471	GSM5397472;GSM5397473;GSM5397474;GSM5397475;GSM5397476				testosterone;Testosterone	
+200178774	GSE178774	Bess	D	G	GSM5397477;GSM5397478;GSM5397479;GSM5397480;GSM5397481	GSM5397482;GSM5397483;GSM5397484;GSM5397485;GSM5397486				testosterone;Testosterone	2 tissues: liver and muscle.
+200250373	GSE250373	Bess	OM	T	wt glucose	∆mftG glucose				MftG;mftG	
+200250373	GSE250373	Bess	OM	T	wt ethanol	∆mftG ethanol				MftG;mftG	Both wild-type and experimental incubated in either glucose or ethanol.
+200196610	GSE196610	Bess	D	T	Senescence Parkin: Parkin	Senescence Parkin +CCCP				CCCP	
+200196610	GSE196610	Bess;Cole	KO	T	Empty CRISPR Proliferating	Bax/Bak CRISPR Proliferating				Bax;BAX&Bak;BAK	
+200196610	GSE196610	Bess	KO	T	Empty CRISPR Senescent	Bax/Bak CRISPR Senescent				Bax;BAK&Bak;BAX	Fibroblasts were either proliferating or senescent.
+200223646	GSE223646	Bess	N								
+200075160	GSE75160	Bess	KD	T	mock	ets4				ets-4;ETS-4;Ets-4	
+200085591	GSE85591	Bess;Cole	KO	T	wt_rep	drpl15b				drpl15b	
+200085591	GSE85591	Bess;Cole	KO	T	wt_rep	drpl6a				drpl6a	
+200085591	GSE85591	Bess;Cole	KO	T	wt_rep	drps27b				drps27b	
+200085591	GSE85591	Bess;Cole	KO	T	wt_rep	drpl7a				drpl7a	
+200085591	GSE85591	Bess;Cp;e	KO	T	wt_rep	drpl9a				drpl9a	
+200085591	GSE85591	Bess	OE	T	wt_met	PADH1-GCN4				GCN4	
+200085591	GSE85591	Bess	OE	T	wt_ura3	PGAL-GST-GCN4				GCN4	
+200085591	GSE85591	Bess	OM	T	wt_met	PADH1-GCN4S242L				GCN4	5 RPKO strains, 2 GCN4 OE strains, 1 GCN4 mutant strain.
+200095617	GSE95617	Bess	D	T	HSC_PBS inj-day7	HSC_β-glucan inj-day7				β-glucan	
+200095617	GSE95617	Bess	D	T	HSC_PBS inj-day28	HSC_β-glucan inj-day28				β-glucan	
+200095617	GSE95617	Bess	D	T	MPP_PBS inj-day28	MPP_β-glucan inj-day28				β-glucan	2 timepoints, 2 cell types.
+200095617	GSE95617	Bess	D	T	PBS inj-5FU	β-glucan inj-5FU				β-glucan&5-fluouracil;5-FU	2 drugs administered.
+200205992	GSE205992	Bess	N								
+200132759	GSE132759	Bess	OE	T	CGRP-C	CGRP-FGFR1				FGFR1;Fgfr1;Fibroblast growth factor receptor 1	
+200132759	GSE132759	Bess	OE	T	CGRP-C	CGRP-Mycl				Mycl;mycl	
+200118081	GSE118081	Bess	N								
+200144830	GSE144830	Bess	D	T	DMSO	TMP269				TMP269	
+200235531	GSE235531	Bess	KO	T	cells, Control	KO				Epas1;EPAS1	
+200235531	GSE235531	Bess	D	T	Control_	Daprodustat				Daprodustat	
+200094594	GSE94594	Bess;Cole	D	T	EL	CL				curcumin	
+200094594	GSE94594	Bess;Cole	D	G	GSM2479006;GSM2479007;GSM2479008	GSM2479009;GSM2479010;GSM2479011				curcumin	
+200094594	GSE94594	Bess;Cole	D	G	GSM2479006;GSM2479007;GSM2479008	GSM2479012;GSM2479013;GSM2479014				calcitriol	
+200033178	GSE33178	Bess	N								
+200198147	GSE198147	Bess;Cole	OE	T	RDR1(-)Dox	RDR1(+)Dox	cell line:;genotype:			RDR1	2 species, 10 cell lines.
+200198147	GSE198147	Bess;Cole	OE	T	RDR1 (-)Dox	RDR1 (+)Dox	cell line:;genotype:			RDR1	
+200198147	GSE198147	Bess;Cole	OE	T	WT (+)Dox	RDR1 (+)Dox	cell line:			RDR1	
+200198147	GSE198147	Bess;Cole	D	T	(-)Dox	(+)Dox	cell line:;genotype:			Dox	
+200198147	GSE198147	Bess;Cole	OE	T	WT (+)Dox-xenograft	RDR1-Mut (+)Dox-xenograft	cell line:			RDR1-Mut	
+200198147	GSE198147	Bess;Cole	OE	T	(R-PE)-nano	(R-Mut)-nano	cell line:			RDR1-Mut	
+200198147	GSE198147	Bess;Cole	OE	T	(R-PE)-nano	(R-WT)-nano	cell line:			RDR1	RDR1 delivered via nanoparticles.
+200198147	GSE198147	Bess;Cole	OE	T	EGFP-AAV	RDR1-AAV				RDR1	
+200198147	GSE198147	Bess;Cole	D	T	DMSO	Palb				palbociclib	NOT_RNA (ncRNA-Seq)
+200199226	GSE199226	Bess	N								
+200173713	GSE173713	Bess	D	T	veh	cyclo				HPβCD;HPBCD	
+200228264	GSE228264	Bess	N								
+200181504	GSE181504	Bess	D	G	GSM5503690;GSM5503694	GSM5503692;GSM5503696				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503697;GSM5503700	GSM5503703;GSM5503706				MSG;monosodium glutamate	
+200181504	GSE181504	Bess;Cole	D	G	GSM5503698;GSM5503701	GSM5503704;GSM5503707				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503689;GSM5503693	GSM5503691;GSM5503695				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503702;GSM5503699	GSM5503708;GSM5503705				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503710;GSM5503714	GSM5503712;GSM5503716				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503717;GSM5503720	GSM5503723;GSM5503726				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503718;GSM5503721	GSM5503724;GSM5503725;GSM5503727				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503709;GSM5503713	GSM5503711;GSM5503715				MSG;monosodium glutamate	
+200181504	GSE181504	Bess	D	G	GSM5503719;GSM5503722	GSM5503728				MSG;monosodium glutamate	2 cell lines, 5 timepoints
+200250148	GSE250148	Bess	N								
+200178884	GSE178884	Bess	KO	T	WT cold	Mettl3 cko cold		input		METTL3	
+200205777	GSE205777	Bess	D	T	VEH	sulforaphane				DL-sulforaphane	
+200205777	GSE205777	Bess	D	T	VEH	Tucidinostate				Tucidinostat	2 drugs used.
+200214291	GSE214291	Bess	N								
+200210778	GSE210778	Bess;Cole	D	T	NS	375				miRNA-375;miR-375	
+200097404	GSE97404	Bess	N								
+200133067	GSE133067	Bess	D	T	YC0	YC1				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YC2				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YC3				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YC4				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YH1				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YH2				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YH3				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	YH4				YPD;rich microbial media	
+200133067	GSE133067	Bess	D	T	YC0	RC1				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RC2				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RC3				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RC4				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RH1				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RH2				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RH3				RPMI + serum;RPMI	
+200133067	GSE133067	Bess	D	T	YC0	RH4				RPMI + serum;RPMI	There are 4 timepoints, 2 temperatures. 
+200102139	GSE102139	Bess	N								
+200236475	GSE236475	Bess;Cole	KO	T	genotype: WT	genotype: ADM_knockout	cell type:			ADM;Adrenomedullin	3 different cell types.
+200198556	GSE198556	Bess	N								
+200255484	GSE255484	Bess	D	T	control	anti-CTLA-4				anti-CTLA-4	
+200211945	GSE211945	Bess	KD	T	pLKO	SMAD3KD				SMAD3	
+200128515	GSE128515	Bess	D	T	LNCAP-DMSO	LNCAP-E7107				E7107	
+200128515	GSE128515	Bess	D	T	PC3-DMSO	PC3-E7107				E7107	
+200128515	GSE128515	Bess	D	T	LAPC9-AI-Veh	LAPC9-AI-E7107				E7107	
+200128515	GSE128515	Bess	D	T	PC3-T-Veh	PC3-T-E7107				E7107	DMSO/vehicle control.
+200247720	GSE247720	Bess;Cole	KD	T	Control	shDHX15-				DHX15	
+200247720	GSE247720	Bess	OE	T	shDHX15-	shDHX15+MYC				MYC	
+200219699	GSE219699	Bess	KO	T		HepG2				SCAF8	No controls.
+200090020	GSE90020	Bess	KO	T	WT_INP	KO_INP				Phf8	NOT_RNA
+200090020	GSE90020	Bess;Cole	KO	T	WT_H3K4me1	KO_H3K4me1				Phf8	NOT_RNA
+200090020	GSE90020	Bess;Cole	KO	T	WT_H3K4me3	KO_H3K4me3				Phf8	NOT_RNA
+200090020	GSE90020	Bess;Cole	KO	T	WT H3K27me2	KO_H3K27me2				Phf8	NOT_RNA
+200090020	GSE90020	Bess;Cole	KO	T	WT H3K9me2	KO_H3K9me2				Phf8	NOT_RNA; Multiple cell lines.
+200090020	GSE90020	Bess	KO	T	ESC_WT	ESC_KO				Phf8	
+200090020	GSE90020	Bess	KO	T	NPC_WT	NPC_KO				Phf8	
+200090020	GSE90020	Bess	KO	T	STR_WT	STR_KO				Phf8	
+200090020	GSE90020	Bess	KO	T	PFC_WT	PFC_KO				Phf8	Multiple cell types.
+200063475	GSE63475	Bess;Cole	KD	T	mock	dicer1				Dicer;DICER1;dicer1	
+200214558	GSE214558	Bess	OM	T	AAVS1	SUPT5H				SUPT5H	
+200215756	GSE215756	Bess	N								
+200174713	GSE174713	Bess	N								
+200262427	GSE262427	Bess	KO	T	WT_LDL	KO_LDL				WEE1	
+200262427	GSE262427	Bess	KO	G	GSM8169508;GSM8169509;GSM8169510	GSM8169511;GSM8169512;GSM8169513				WEE1	There was a drug treatment of oxLDL used for one set of controls/KO.
+200188659	GSE188659	Bess	KO	T	Mb1cre(WT/WT)	Mb1cre(cre/WT)				TBK1;Tbk1;Tank-binding kinase-1	
+200165450	GSE165450	Bess	KO	T	D24_scr	D24_si				CDH18	
+200070542	GSE70542	Bess;Cole	KD	T	CT	KO				Ptf1a;PTF1A	
+200148572	GSE148572	Bess;Cole	D	T	DMSO	zeocin				zeocin	NOT_RNA (RIP-seq)
+200056888	GSE56888	Bess	N								
+200196597	GSE196597	Bess;Cole	KD	T	GFP	sh2				LAMC2	No controls, LAMC2 was depleted using 2 different shRNAs. (Correction: shGFP was the control)
+200190607	GSE190607	Bess	N								
+200174753	GSE174753	Bess	N								
+200239979	GSE239979	Bess	N								
+200149523	GSE149523	Bess	D	G	GSM4504427;GSM4504428;GSM4504429	GSM4504424;GSM4504425;GSM4504426				Dox;dox	
+200149523	GSE149523	Bess	D	G	GSM4504433;GSM4504434;GSM4504435	GSM4504430;GSM4504431;GSM4504432				Dox;dox	
+200149523	GSE149523	Bess	KD	G	GSM4504433;GSM4504434;GSM4504435	GSM4504427;GSM4504428;GSM4504429				MCM7	
+200149523	GSE149523	Bess	KD	G	GSM4504430;GSM4504431;GSM4504432	GSM4504424;GSM4504425;GSM4504426				MCM7	
+200149523	GSE149523	Bess	D	T	A375_sh_NT	A375_sh_Dox				Dox;dox	
+200149523	GSE149523	Bess	D	T	A375_wt_NT	A375_wt_Dox				Dox;dox	
+200149523	GSE149523	Bess	KD	T	A375_wt_NT	A375_sh_NT				MCM7	
+200149523	GSE149523	Bess	KD	T	A375_wt_Dox	A375_sh_Dox				MCM7	3 experimental variables: MCM7 KD/wt, Dox/no Dox, 2 cell lines.
+200199429	GSE199429	Bess	N								
+200088856	GSE88856	Bess	KO	T	rose.epithelium.rep	JNK.epithelium.rep				JNK;Jnk;cJUN NH2-terminal kinase	
+200088856	GSE88856	Bess	KO	T	rose.epithelium.susp	JNK.epithelium.susp				JNK;Jnk;cJUN NH2-terminal kinase	Cell cultures are suspended/attached.
+200081949	GSE81949	Bess	N								
+200194371	GSE194371	Bess	N								
+200121092	GSE121092	Bess	OE	T	U251_CT	U251_N5				NANEP5	
+200121092	GSE121092	Bess	OE	T	U87_CT	U87_N5				NANEP5	2 cell lines.
+200241934	GSE241934	Bess	N								
+200241852	GSE241852	Bess	D	T	MCF10A_NEO_NT	MCF10A_NEO_PolyIC				Poly IC;PolyIC;polyIC	
+200241852	GSE241852	Bess	D	T	MCF10A_GRHL2KO_NT	MCF10A_GRHL2KO_PolyIC				Poly IC;PolyIC;polyIC	
+200241852	GSE241852	Bess	KO	T	MCF10A_NEO_NT	MCF10A_GRHL2KO_NT				GRHL2;Grainyhead-like-2	
+200241852	GSE241852	Bess	KO	T	MCF10A_NEO_PolyIC	MCF10A_GRHL2KO_PolyIC				GRHL2;Grainyhead-like-2	
+200113210	GSE113210	Bess	N								
+200133433	GSE133433	Bess	N								
+200098248	GSE98248	Bess	D	T	CTRL	6 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	12 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	18 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	24 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	30 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	36 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	42 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	48 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	54 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	60 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	66 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	72 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	78 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	84 hours				Tetracycline;tetracycline	
+200098248	GSE98248	Bess	D	T	CTRL	90 hours				Tetracycline;tetracycline	15 timepoints.
+200135198	GSE135198	Bess	KO	G	GSM3993382;GSM3993383;GSM3993384	GSM3993388;GSM3993389;GSM3993390				LDLR&ob	Dual Peturbation.
+200135198	GSE135198	Bess	KO	T	WT ACE-I	DKO ACE-I				LDLR&ob	
+200135198	GSE135198	Bess	KO	T	WT_HPC	DKO_HPC				LDLR&ob	
+200135198	GSE135198	Bess	D	T	WT ACE-I_HPC	WT_HPC				captopril;ACE-inhibitor;ACE-I	
+200135198	GSE135198	Bess	KO	T	WT ACE-I_HPC	DKO ACE-I_HPC				LDLR&ob	
+200135198	GSE135198	Bess	D	G	GSM3993382;GSM3993383;GSM3993384	GSM3993385;GSM3993386;GSM3993387				captopril;ACE-inhibitor;ACE-I	
+200135198	GSE135198	Bess	D	G	GSM3993388;GSM3993389;GSM3993390	GSM3993391;GSM3993392;GSM3993393				captopril;ACE-inhibitor;ACE-I	
+200135198	GSE135198	Bess	D	T	DKO_HPC	DKO ACE-I_HPC				captopril;ACE-inhibitor;ACE-I	
+200135198	GSE135198	Bess	D	T	WT_HPC	WT ACE-I_HPC				captopril;ACE-inhibitor;ACE-I	3 experimental variables: ACE-I/no ACE-1, DKO/no DKO, HPC/no HPC (preconditioning).
+200152489	GSE152489	Bess	N								
+200101117	GSE101117	Bess	N								
+200103169	GSE103169	Bess	OM	T	WT	mutant				Wwtr1;wwtr1	
+200219958	GSE219958	Bess	KO	T		HepG2				CARHSP1	No controls.
+200188821	GSE188821	Bess	N								
+200197858	GSE197858	Bess	N								
+200074019	GSE74019	Bess;Cole	OE	G	GSM1908214	GSM1908215				Hhex	NOT_RNA
+200074019	GSE74019	Bess;Cole	OE	G	GSM1908217	GSM1908218				Hhex	NOT_RNA
+200074019	GSE74019	Bess;Cole	OE	G	GSM1908220	GSM1908221				Hhex	NOT_RNA
+200074019	GSE74019	Bess;Cole	KO	G	GSM1908213	GSM1908214				Hhex	NOT_RNA
+200074019	GSE74019	Bess;Cole	KO	G	GSM1908216	GSM1908217				Hhex	NOT_RNA
+200074019	GSE74019	Bess;Cole	KO	G	GSM1908219	GSM1908220				Hhex	NOT_RNA; Tamoxifen is an important inducer of the KO, however it is not mentioned in the study/sample description.
+200074019	GSE74019	Bess;Cole	KO	T	Hhex+	Hhex-				Hhex	
+200101167	GSE101167	Bess	KD	T	NT	siL3				CD95L	
+200134757	GSE134757	Bess	N								
+200140266	GSE140266	Bess	D	T	Control	DMaKG				DM-aKG;DMaKG	
+200155306	GSE155306	Bess	KD	T	WT	MYB134R				MYB134	
+200226273	GSE226273	Bess	D	T	WT	Model				Na2SeO3	
+200201421	GSE201421	Bess	OE	T	untreated 6	cdN mRNA treated 6				cdN	
+200201421	GSE201421	Bess	OE	T	untreated 6	NT5M mRNA treated 6				NT5M	
+200201421	GSE201421	Bess	OE	T	untreated 6	CT treated				CT	
+200201421	GSE201421	Bess	OE	T	untreated 12	cdN mRNA treated 12				cdN	
+200201421	GSE201421	Bess	OE	T	untreated 12	NT5M mRNA treated 12				NT5M	
+200201421	GSE201421	Bess	OE	T	untreated 12	CT treated 12				CT	
+200201421	GSE201421	Bess	OE	T	untreated 24	cdN mRNA treated 24				cdN	
+200201421	GSE201421	Bess	OE	T	untreated 24	NT5M mRNA treated 24				NT5M	
+200201421	GSE201421	Bess	OE	T	untreated 24	CT treated 24				CT	Encoded by mRNA, not DNA; 3 timepoints.
+200104445	GSE104445	Bess	KO	T	293T-34a	4-24-34a				Dicer	
+200104445	GSE104445	Bess	KO	T	293T-124	4-24-124				Dicer	
+200104445	GSE104445	Bess	KO	T	293T-MSA	4-24-MSA				Dicer	
+200104445	GSE104445	Bess;Cole	D	T	293T-MSA	293T-124				miR-34a-3p	
+200104445	GSE104445	Bess;Cole	D	T	293T-MSA	293T-34a				miR-34a-5p	
+200104445	GSE104445	Bess;Cole	D	T	4-24-MSA	4-24-124a				miR-34a-3p	
+200104445	GSE104445	Bess;Cole	D	T	4-24-MSA	4-24-34a				miR-34a-5p	2 cell types, 2 miR treatments, 1 control.
+200156634	GSE156634	Bess	N								
+200053450	GSE53450	Bess	N								
+200115404	GSE115404	Bess	N								
+200175245	GSE175245	Bess	N								
+200101340	GSE101340	Bess	D	T	WT veh	WT TMX				Tamoxifen	
+200101340	GSE101340	Bess	D	T	G17V veh	G17V TMX				Tamoxifen	
+200101340	GSE101340	Bess;Cole	OM	T	WT TMX	G17V TMX				RhoA	
+200264589	GSE264589	Bess	D	T	ntg_vehicle	ntg_TNF				TNFα;tumor necrosis factor α;TNFa	
+200264589	GSE264589	Bess	D	T	PIAS1KO_vehicle	PIAS1KO_TNF				TNFα;tumor necrosis factor α;TNFa	
+200264589	GSE264589	Bess	KO	T	ntg_vehicle	PIAS1KO_vehicle				PIAS1	
+200264589	GSE264589	Bess	KO	T	ntg_TNF	PIAS1KO_TNF				PIAS1	
+200129024	GSE129024	Bess	N								
+200199753	GSE199753	Bess	N								
+200214575	GSE214575	Bess	KO	T	Control	KO				Kdm6b;KDM6B	
+200074263	GSE74263	Bess;Cole	OM	T	Control	Patient				OGT	
+200148723	GSE148723	Bess	OE	T	infected with control	SYT-SSX				SYT-SSX;SS18-SSX	
+200148723	GSE148723	Bess	KO	T	pLKO control	CRE recombinase				SYT-SSX;SS18-SSX	KO by CRE recombinase.
+200163591	GSE163591	Bess	D	G	GSM4982249;GSM4982250;GSM4982251	GSM4982252;GSM4982253;GSM4982254				CaPB	
+200259284	GSE259284	Bess	N								
+200241702	GSE241702	Bess	N								
+200234501	GSE234501	Bess	N								
+200097463	GSE97463	Bess	N								
+200201432	GSE201432	Bess	N								
+200156903	GSE156903	Bess	D	T	DMSO	VCS				Voclosporin;VCS;voclosporin	
+200156903	GSE156903	Bess	D	T	DMSO	TAC				tacrolimus;Tacrolimus;TAC	
+200220540	GSE220540	Bess	KO	T	CDKN2A WT Diaphragm	CDKN2A KO Diaphragm				Cdkn2a;CDKN2A	
+200220540	GSE220540	Bess	KO	T	CDKN2A WT Lung	CDKN2A KO Lung				Cdkn2a;CDKN2A	
+200057694	GSE57694	Bess	N								
+200089250	GSE89250	Bess;Cole	OE	T	control	HNF4α transduction, bio				HNF4α;HNF4a	NOT_RNA (library strategy not listed)
+200089250	GSE89250	Bess;Cole	D		control	LEC AZA treatment				azacytidine;AZA;Azacytidine	NOT_RNA (library strategy not listed)
+200089250	GSE89250	Bess;Cole	D		HNF4α transduction, bio	HNF4α transduction + AZA treatment				azacytidine;AZA;Azacytidine	NOT_RNA (library strategy not listed)
+200164737	GSE164737	Bess	N								
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104960;GSM5104961	GSM5104962;GSM5104963				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104964;GSM5104965	GSM5104966;GSM5104967				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104976;GSM5104977	GSM5104978;GSM5104979				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104980;GSM5104981	GSM5104982;GSM5104983				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104984;GSM5104985	GSM5104986;GSM5104987				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104988;GSM5104989	GSM5104990;GSM5104991				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104992;GSM5104993	GSM5104994;GSM5104995				Batf;basic leucine zipper transcription factor	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5104996;GSM5104997	GSM5104998;GSM5104999				STAT5	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5105000;GSM5105001	GSM5105002;GSM5105003				STAT5	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5105004;GSM5105005	GSM5105006;GSM5105007				STAT5	NOT_RNA
+200167420	GSE167420	Bess;Cole	KO	G	GSM5105008;GSM5105009	GSM5105010;GSM5105011				STAT5	NOT_RNA; Multiple transcription factors, 2 different KOs.
+200167420	GSE167420	Bess	KO	G	GSM5105012;GSM5105013	GSM5105014;GSM5105015				Batf;basic leucine zipper transcription factor	
+200167420	GSE167420	Bess	KO	G	GSM5105016;GSM5105017	GSM5105018;GSM5105019				Batf;basic leucine zipper transcription factor	
+200199280	GSE199280	Bess	N								
+200148061	GSE148061	Bess	N								
+200111374	GSE111374	Bess	N								
+200207069	GSE207069	Bess	N								
+200220607	GSE220607	Bess	N								
+200087855	GSE87855	Bess	KO	T	WT	KO				MeCP2	
+200100694	GSE100694	Bess	D	T	LOUCY_DMSO	LOUCY_JQ1				JQ1	
+200100694	GSE100694	Bess	D	T	LOUCY_DMSO	LOUCY_IBET151				I-BET151	
+200107646	GSE107646	Bess	N								
+200217525	GSE217525	Bess	D	G	GSM6721031;GSM6721032;GSM6721033;GSM6721034;GSM6721035	GSM6721036;GSM6721037;GSM6721038;GSM6721039;GSM6721040				PS19 brain lysate;brain lysate;PS19	
+200217525	GSE217525	Bess	D	G	GSM6721031;GSM6721032;GSM6721033;GSM6721034;GSM6721035	GSM6721041;GSM6721042;GSM6721043;GSM6721044;GSM6721045				thapsigragin;Thapsigargin	
+200164668	GSE164668	Bess	N								
+200115367	GSE115367	Bess	OM	T	WTCOLON	APCOLON				Atoh1;ATOH1	
+200115367	GSE115367	Bess	OM	T	WTSI	APSI				Atoh1;ATOH1	Cell profiles obtained for both small intestine and colon.
+200212529	GSE212529	Bess	D	T		immunotherapy				anti-PD-1 immunotherapy;immunotherapy	No controls.
+200185479	GSE185479	Bess	N								
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: brm-/-				brm	
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: brd1-/-brd2-/-brd13-/-				brd1&brd2&brd3	Triple pertubation.
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: brip1-/-brip2-/-				brip1&brip2	Dual pertubation.
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: syd-/-				syd	
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: swi3d-/-				swi3d	
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: sys1-/-sys2-/-sys3-/-				sys1&sys2&sys3	Triple pertubation.
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: minu1-/-minu2-/-				minu1&minu2	Dual pertubation.
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: pms2a-/-pms2b-/-				pms2a&pms2b	Dual pertubation.
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: swp73b-/-				swp73b	
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: bcl7a-/-bcl7b-/-				bcl7a&bcl7b	Dual pertubation.
+200193095	GSE193095	Bess;Cole	OM	T	genotype: wild type	genotype: an3-/-				an3	
+200066484	GSE66484	Bess	D	T	4 hr PDGF R	4 hr PDGF + PD325901				PD325901	
+200066484	GSE66484	Bess	D	T	4 hr FGF R	4 hr FGF + PD325901				PD325901	
+200066484	GSE66484	Bess	D	T	4 hr PDGF R	4 hr PDGF + LY294002				LY294002	
+200066484	GSE66484	Bess	D	T	4 hr FGF R	4 hr FGF + LY294002				LY294002	2 types of intital treatments, 2 types of drugs given later.
+200197821	GSE197821	Bess	D	T		BME				BME;basement membrane extract	
+200197821	GSE197821	Bess	D	T		Collagen				collagen I;Collagen I	No controls.
+200224082	GSE224082	Bess	KD	T	WT	KD				LSD1;lysine-specific demethylase 1	
+200224082	GSE224082	Bess;Cole	D	T	LN18_TCPminus	LN18_TCPplus				TCP	
+200224082	GSE224082	Bess;Cole	D	T	LNZ308_TCPminus	LNZ308_TCPplus				TCP	
+200224082	GSE224082	Bess;Cole	D	T	NHA_TCPminus	NHA_TCPplus				TCP	TCP is Tranylcypromine, but it is not explicitly mentioned in the sample description (LSD1 inhibitor).
+200109157	GSE109157	Bess	D	T	IL2 H3ac	IL2 IL4 H3ac		Input		IL-4;IL4	NOT_RNA
+200109157	GSE109157	Bess	D	T	IL2 H3ac	IL2 TCR H3ac		Input		SIINFEKL	NOT_RNA
+200109157	GSE109157	Bess	D	T	IL2 IL4 H3ac	IL2 IL4 TCR H3ac		Input		SIINFEKL	NOT_RNA
+200109157	GSE109157	Bess	D	T	IL2 CD8	IL2 TCR CD8				SIINFEKL	
+200109157	GSE109157	Bess	D	T	IL2 CD8	IL2 IL4 CD8				IL-4;IL4	
+200109157	GSE109157	Bess	D	T	IL2 IL4 CD8	IL2 IL4 TCR CD8				SIINFEKL	
+200109157	GSE109157	Bess	D	T	IL2 TCR CD8	IL2 IL4 TCR CD8				IL-4;IL4	
+200228275	GSE228275	Bess	N								
+200119794	GSE119794	Bess	N								
+200113237	GSE113237	Bess	N								
+200189726	GSE189726	Bess	KO	T	Null	Cre				Mdm2	
+200120693	GSE120693	Bess	OE	G	GSM3408479;GSM3408480	GSM3408477;GSM3408478				HMGB1;High-mobility group B1	
+200120693	GSE120693	Bess	KD	G	GSM7834035;GSM7834036	GSM7834037;GSM7834038				HMGB1;High-mobility group B1	
+200120693	GSE120693	Bess	KD	G	GSM8014098;GSM8014099;GSM8014100	GSM8014101;GSM8014102;GSM8014103				HMGB1;High-mobility group B1	2 different sequencing instruments used for KD.
+200058702	GSE58702	Bess	N								
+200104525	GSE104525	Bess	N								
+200059831	GSE59831	Bess	N								
+200191087	GSE191087	Bess	N								
+200156588	GSE156588	Bess	N								
+200131231	GSE131231	Bess	KD	T	control	Bromo				EP300	
+200220914	GSE220914	Bess	KO	T	WTCtrl	E4				Zdhhc20;ZDHHC20	
+200186633	GSE186633	Bess	KO	T	WT_Ali	KO_Ali				CHD1	
+200186633	GSE186633	Bess	KO	T	WT_C	KO_C				CHD1	
+200186633	GSE186633	Bess	D	T	KO_C	KO_Ali				Alisertib	
+200186633	GSE186633	Bess	D	T	WT_C	WT_Ali				Alisertib	
+200216546	GSE216546	Bess	D	T	DMSO	quercetin				Quercetin;quercetin	
+200169549	GSE169549	Bess	N								
+200180909	GSE180909	Bess	KD	T	NC	METTL3				METTL3	
+200017107	GSE17107	Bess	N								
+200123320	GSE123320	Bess	D	T		TH9-PC				IL-2&IL-4&TGF-beta;TGF-b	
+200123320	GSE123320	Bess	D	T		SC				IL-2&IL-15	No controls.
+200166345	GSE166345	Bess;Cole	D	T	before	after				carboplatin&cyclophosphamide&etoposide&doxorubicin	The patient underwent neoadjuvant chemotherapy.
+200165246	GSE165246	Bess	KD	T	S_DHT	T_DHT				TMEFF2	
+200165246	GSE165246	Bess	KD	T	SDHT	TDHT				TMEFF2	
+200165246	GSE165246	Bess	D	T	S_DHT	SDHT				DHT;dihydrotestosterone	
+200165246	GSE165246	Bess	D	T	T_DHT	TDHT				DHT;dihydrotestosterone	2 experimental variables: DHT/no DHT, TMEFF2 KD/no KD.
+200223405	GSE223405	Bess;Cole	OE	T	HPr1-AR cells, Vector, veh control	HPr1-AR cells, BAZ1A, veh control				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	HPr1-AR cells, Vector, treat	HPr1-AR cells, BAZ1A, treat				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	LNCaP cells, Vector, veh control	LNCaP cells, BAZ1A, veh control				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	LNCaP cells, Vector, treat	LNCaP cells, BAZ1A, treat				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	RC43N cells, Vector, veh contro	RC43N cells, BAZ1A, veh control				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	RC43N cells, Vector, treat	RC43N cells, BAZ1A, treat				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	RC43T cells, Vector, veh control	RC43T cells, BAZ1A, veh control				BAZ1A	UNUSABLE
+200223405	GSE223405	Bess;Cole	OE	T	RC43T cells, Vector, treat	RC43T cells, BAZ1A, treat				BAZ1A	UNUSABLE; Multiple cell types. Vector/treatment variable improperly labeled so it is unusable.
+200223405	GSE223405	Bess;Cole	D	T	veh control	1α,25(OH)2D3	cell line:;vector:			1α,25(OH)2D3	UNUSABLE
+200186199	GSE186199	Bess	D	G	GSM5640199;GSM5640200;GSM5640201;GSM5640202;GSM5640207;GSM5640208;GSM5640209;GSM5640210;GSM5640215;GSM5640216;GSM5640217;GSM5640218	GSM5640203;GSM5640204;GSM5640205;GSM5640206;GSM5640211;GSM5640212;GSM5640213;GSM5640214;GSM5640219;GSM5640220;GSM5640221;GSM5640222				R848;Resiquimod	NOT_RNA
+200186199	GSE186199	Bess;Cole	N								RNA-Seq segment was not a relevant perturbation experiment.
+200223223	GSE223223	Bess	N								
+200207830	GSE207830	Bess	OM	T	IDH2WT	IDH2R140Q_Rep				IDH	
+200207830	GSE207830	Bess	D	T	IDH2R140Q_4days_DMSO	IDH2R140Q_4days_AG221				AG-221	
+200207830	GSE207830	Bess	D	T	IDH2R140Q_7days_DMSO	IDH2R140Q_7days_AG221				AG-221	
+200135310	GSE135310	Bess	N								
+200243210	GSE243210	Bess	KO	T	WT	KO				C5aR;complement 5a receptor;C5a receptor	
+200162275	GSE162275	Bess	N								While this study is technically testing the drug "R", no other information is given to make the drug R distinguishable from the letter R, so it is unusable.
+200198235	GSE198235	Bess	N								
+200056725	GSE56725	Bess	N								
+200176054	GSE176054	Bess	N								
+200185904	GSE185904	Bess	KD	T	Ctrl	Smad7				Smad7	
+200250001	GSE250001	Bess;Cole	D	G	GSM7968907	GSM7968908				G-CSF	
+200141409	GSE141409	Bess;Cole	OM	T	genotype/variation: WT	genotype/variation: <delta>BbHapX				HapX;Hapx	
+200244858	GSE244858	Bess	D	T	control	diquat				diquat;DCK;DQ	
+200252250	GSE252250	Bess	D	T	Tg	TUDCA				TUDCA;tauroursodeoxycholic acid	
+200114135	GSE114135	Bess	D	T	activation_status: 0	activation_status: 1	allergy_status:;Sex:			anti-CD3+CD28;CD3/CD28 Dynabeads	
+200114135	GSE114135	Bess	D	T	stimulation: 0	stimulation: 1	allergy_phenotype: ;allergy status: ;Sex: 			anti-CD3+CD28;CD3/CD28 Dynabeads	NOT_RNA;Cells were activated via antibodies on Dynabeads.
+200109637	GSE109637	Bess	KD	T	ItprCtrl	ItprKD				IP3R	
+200157622	GSE157622	Bess	KD	T	HepG2_siCTRL	HepG2_siNONO				NONO	
+200157622	GSE157622	Bess	KD	T	HepG2_siCTRL	HepG2_siSFPQ				SFPQ	
+200157622	GSE157622	Bess	KD	T	HEK293T_siCTRL	HEK293T_siNONO				NONO	
+200157622	GSE157622	Bess	KD	T	HEK293T_siCTRL	HEK293T_siSFPQ				SFPQ	2 cell types.
+200256463	GSE256463	Bess	N								
+200181638	GSE181638	Bess	D	T	untreated	aspirin treated				aspirin;Aspirin	
+200225134	GSE225134	Bess	N								
+200149966	GSE149966	Bess	KD	T	NT	siID4				ID4;Id4	
+200085088	GSE85088	Bess	KD	T	siNT_E0h	siCTCF_E0h				CTCF	
+200085088	GSE85088	Bess	KD	T	siNT_E3h	siCTCF_E3h				CTCF	
+200085088	GSE85088	Bess	D	T	siNT_E0h	siNT_E3h				Estrogen	
+200085088	GSE85088	Bess	D	T	siCTCF_E0h	siCTCF_E3h				Estrogen	2 timepoints for Estrogen administration: 0hr (control), 3hr
+200115386	GSE115386	Bess	D	T	control	Etoposide				etoposide;ETP;Etoposide	
+200115386	GSE115386	Bess	D	T	control	Imatinib mesylate				Imatinib mesylate;imatinib mesylate;IMA	
+200115386	GSE115386	Bess	D	T	control	Cisplatinum				cisplatinum;CDDP;Cisplatinum	3 different drugs tested.
+200217769	GSE217769	Bess	KO	T	wt control	KO				p53;P53	
+200093294	GSE93294	Bess	OM	T	Control_adult	Lola_O				longitudinals lacking;lola;Lola	
+200093294	GSE93294	Bess	OM	T	control_r	lola-F_				longitudinals lacking;lola;Lola	
+200093294	GSE93294	Bess	OM	T	control_r	Lola-Null				longitudinals lacking;lola;Lola	3 different mutations tested.
+200116779	GSE116779	Bess	D	T	GS control	GS RA24h				retinoic acid	
+200116779	GSE116779	Bess	D	T	GS control	GS RA72h				retinoic acid	
+200116779	GSE116779	Bess	D	T	GS control	GS RA120h				retinoic acid	
+200116779	GSE116779	Bess	D	T	ES control	ES RA120h				retinoic acid	3 time points, 2 types of cells.
+200101312	GSE101312	Bess	N								
+200118569	GSE118569	Bess	N								
+200224972	GSE224972	Bess	N								
+200219022	GSE219022	Bess	D	T	pH7.6	pH5.8				hydrochloric acid 	
+200219022	GSE219022	Bess	D	T	pH7.6	pH4.4				hydrochloric acid 	2 different dosages given (and 2 resulting pHs) 
+200112973	GSE112973	Bess	N								
+200244488	GSE244488	Bess;Cole	D	T	treatment: none	treatment: TNF-alpha				TNF-alpha	NOT_RNA; Other SubSeries within the SuperSeries were N.
+200244488	GSE244488	Bess;Cole	N	T							
+200176688	GSE176688	Bess	N								
+200122405	GSE122405	Bess	KO	T	Dnmt3a+/+	Dnmt3aF/F				Dnmt3a	
+200190034	GSE190034	Bess	N								
+200207183	GSE207183	Bess	N								
+200224420	GSE224420	Bess	KD	T	CSS_ENZ10days	shROR2_ENZ10days				ROR2	
+200224420	GSE224420	Bess	KD	T		shROR2_Rep				ROR2	No controls.
+200224420	GSE224420	Bess	OE	T		_OE_ROR2_				ROR2	No controls.
+200193801	GSE193801	Bess	OM	T	30d Heart WT	30d Heart Mutant				CHCHD10	
+200193801	GSE193801	Bess	OM	T	75d Heart WT	75d Heart Mutant				CHCHD10	
+200193801	GSE193801	Bess	OM	T	125d Heart WT	125d Heart Mutant				CHCHD10	
+200193801	GSE193801	Bess	OM	T	225d Heart WT	225d Heart Mutant				CHCHD10	Multiple timepoints.
+200057926	GSE57926	Bess;Cole	D	T	MEFs-RBFox2-NC	MEFs-RBFox2-DRB		MEFs-Input-DRB		DRB	NOT_RNA
+200057926	GSE57926	Bess;Cole	KD	T	MEFs-RBFox2-NC	MEFs-RBFox2-siSUZ12		MEFs-Input-siSUZ12		SUZ12	NOT_RNA
+200057926	GSE57926	Bess;Cole	D	T	MEFs-SUZ12-NC	MEFs-SUZ12-DRB		MEFs-Input-DRB		DRB	NOT_RNA
+200057926	GSE57926	Bess;Cole	KD	T	MEFs-SUZ12-NC	MEFs-SUZ12-siRBFox2		MEFs-Input-siRBFox2		RBFox2	NOT_RNA
+200057926	GSE57926	Bess;Cole	KO	T	Myocyte-Ago2-RBFox2-WT	Myocyte-Ago2-RBFox2-KO				RBFox2	NOT_RNA
+200057926	GSE57926	Bess;Cole	KO	T	Heart-WT	Heart-KO				RBFox2	
+200057926	GSE57926	Bess;Cole	KD	T	MEFs-NC	MEFs-siRBFox2				RBFox2	
+200057926	GSE57926	Bess;Cole	KD	T	MEFs-NC	MEFs-siSUZ12				SUZ12	
+200057926	GSE57926	Bess;Cole	KO	T	cardiac myocytes from WT mouse hearts	cardiac myocytes from RBFox2 KO mouse hearts	age:			RBFox2	Multiple types of sequencing (ChIPseq, CLIPseq, GROseq, RASLseq), timepoints, and target genes.
+200114037	GSE114037	Bess	N								
+200193894	GSE193894	Bess	D	T	No treatment	50 ng diphtheria toxin treatment				diphtheria toxin;DT	
+200172181	GSE172181	Bess	D	T	_DMSO	_Doxorubicin				Doxorubicin	
+200172181	GSE172181	Bess	D	T	_DMSO	_Bortezomib				Bortezomib	
+200172181	GSE172181	Bess	D	T	_DMSO	_Tegretol				Tegretol	
+200172181	GSE172181	Bess	D	T	_DMSO	_WZ8040				WZ8040	
+200172181	GSE172181	Bess	D	T	_DMSO	_PHA-767491				PHA-767491	
+200172181	GSE172181	Bess	D	T	_DMSO	_BI 2536				BI 2536	
+200172181	GSE172181	Bess	D	T	_DMSO	_Daunorubicin				Daunorubicin	
+200172181	GSE172181	Bess	D	T	_DMSO	_Nitrendipine				Nitrendipine	
+200172181	GSE172181	Bess	D	T	_DMSO	_Solifenacin				Solifenacin	Multiple drugs tested.
+200219750	GSE219750	Bess	N								
+200197555	GSE197555	Bess	D	G	GSM5920517;GSM5920518;GSM5920519	GSM5920520;GSM5920521;GSM5920522				trametinib;MEKi;MAP kinse-ERK kinase inhibitor	
+200197555	GSE197555	Bess	D	G	GSM5920523;GSM5920524;GSM5920525	GSM5920526;GSM5920527;GSM5920528				trametinib;MEKi;MAP kinse-ERK kinase inhibitor	2 types of cells tested.
+200247238	GSE247238	Bess	N								
+200152556	GSE152556	Bess	N								
+200179495	GSE179495	Bess	D	T	ControlRep	HighRep				lithium cobalt oxide;LCO	
+200179495	GSE179495	Bess	D	T	ControlRep	IonRep				ion;Ion	
+200179495	GSE179495	Bess	D	T	ControlRep	LowRep				lithium cobalt oxide;LCO	2 different dosages of LCO given.
+200102352	GSE102352	Bess	N								
+200167506	GSE167506	Bess	N								
+200129611	GSE129611	Bess	N								
+200184639	GSE184639	Bess	N								
+200111004	GSE111004	Bess;Cole	KD	T	TC71-shNT	TC71-shSA1				SA1	
+200111004	GSE111004	Bess;Cole	KD	T	TC32-shNT	TC32-shSA1				SA2	Doxycyline induced SA1 KD for 2 cell types.
+200040050	GSE40050	Bess	D	T	C42B vehicle	C42B treated				DHT	
+200040050	GSE40050	Bess	D	T	LNCAP vehicle	LNCAP treated				DHT	
+200040050	GSE40050	Bess;Cole	KD	T	C42B siNS	C42B siAR				AR	
+200040050	GSE40050	Bess;Cole	D	T	C42B AR vehicle	C42B AR treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	LNCAP AR vehicle	LNCAP AR treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	22RV1 AR vehicle	22RV1 AR treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	C42B FOXA1 vehicle	C42B FOXA1 treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	C42B ACH3 vehicle	C42B ACH3 treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	LNCAP ACH3 vehicle	LNCAP ACH3 treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	C42B H3K4ME3 vehicle	C42B H3K4ME3 treated				DHT	NOT_RNA
+200040050	GSE40050	Bess;Cole	D	T	LNCAP H3K4ME3 vehicle	LNCAP H3K4ME3 treated				DHT	NOT_RNA; 5 cell lines, 4 chip antibodies.
+200111570	GSE111570	Bess	N								
+200229698	GSE229698	Bess	KO	T	WT,	_GLOko				TRAF7;Traf7	
+200229698	GSE229698	Bess	KO	T	WT,	_ECko				TRAF7;Traf7	
+200229698	GSE229698	Bess	KO	T	WT,	_EChet				TRAF7;Traf7	3 types of knockouts: endothelium-specific, endothelim-specific heterozygote, and global knockout.
+200119775	GSE119775	Bess	KO	T	WTH	TAZH				TAZ;tafazzin;Tafazzin	
+200119775	GSE119775	Bess	KO	T	WTN	TAZN				TAZ;tafazzin;Tafazzin	Cells in hypoxia (H) or nomoxia (N).
+200087344	GSE87344	Bess	KO	T	wild type	Lmnb1-/-				Lmnb1;Lamin-B1	
+200136107	GSE136107	Bess	N								
+200078157	GSE78157	Bess	OM	T	Wildtype RNA-seq	hH1 RNA-seq				H1	
+200078157	GSE78157	Bess;Cole	OM	T	Wildtype Negative control	H1-FLAG				H1	NOT_RNA
+200078157	GSE78157	Bess;Cole	OM	T	Wildtype MNase-Seq 20	hH1 MNase-Seq 20				H1	NOT_RNA
+200078157	GSE78157	Bess;Cole	OM	T	Wildtype MNase-Seq 60	hH1 MNase-Seq 60				H1	NOT_RNA; 2 types of mutation.
+200228240	GSE228240	Bess	KO	G	GSM7117597	GSM7117598				H1.2	
+200228240	GSE228240	Bess	KO	G	GSM7117598	GSM7117599				H1.3	
+200228240	GSE228240	Bess	KO	G	GSM7117599	GSM7117600				H1.0&H1.5	Dual pertubation.
+200228240	GSE228240	Bess	KO	G	GSM7117600	GSM7117601				H1.4	
+200228240	GSE228240	Bess	OE	G	GSM7117599	GSM7117602				H1.3	
+200228240	GSE228240	Bess	OE	G	GSM7117601	GSM7117603				H1.0 	
+200228240	GSE228240	Bess	OE	G	GSM7117601	GSM7117604				H1.5	
+200228240	GSE228240	Bess	OE	G	GSM7117598	GSM7117605				H1.2	
+200228240	GSE228240	Bess	OE	G	GSM7117599	GSM7117606				H1.2&H1.3	Dual pertubation.
+200114222	GSE114222	Bess;Cole	D	T	Mock miRNA methyl RNA	143-3p miRNA methyl RNA IP		143-3p miRNA methyl RNA control		143-3p miRNA	
+200114222	GSE114222	Bess;Cole	D	T	Mock miRNA methyl RNA	145-5p miRNA methyl RNA IP		145-5p miRNA methyl RNA control		145-5p miRNA	
+200114222	GSE114222	Bess;Cole	D	T	Mock miRNA methyl RNA	129-5p miRNA methyl RNA IP		129-5p miRNA methyl RNA control		129-5p miRNA	
+200240813	GSE240813	Bess	N								
+200209820	GSE209820	Bess	KO	T	HFF, IgG, HSV-1 4 hpi	KO, IgG, HSV-1 4 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, IgG, HSV-1 8 hpi	KO, IgG, HSV-1 8 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, IgG, HSV-1 12 hpi	KO, IgG, HSV-1 12 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, IgG, Mock	KO, IgG, Mock				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, H3K27me3, HSV-1 4 hpi	KO, H3K27me3, HSV-1 4 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, H3K27me3, HSV-1 8 hpi	KO, H3K27me3, HSV-1 8 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, H3K27me3, HSV-1 12 hpi	KO, H3K27me3, HSV-1 12 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, H3K27me3, Mock	KO, H3K27me3, Mock				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, macroH2A1, HSV-1 4 hpi	KO, macroH2A1, HSV-1 4 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, macroH2A1, HSV-1 8 hpi	KO, macroH2A1, HSV-1 8 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, macroH2A1, HSV-1 12 hpi	KO, macroH2A1, HSV-1 12 hpi				mH2A1;macroH2A1	NOT_RNA
+200209820	GSE209820	Bess	KO	T	HFF, macroH2A1, Mock	KO, macroH2A1, Mock				mH2A1;macroH2A1	NOT_RNA; 3 timepoints post infection (or mock infection), 3 cut&tag antibodies.
+200209820	GSE209820	Bess	KO	T	WT, 4 hpi	KO, 4 hpi				mH2A1;macroH2A1	
+200209820	GSE209820	Bess	KO	T	WT, 8 hpi	KO, 8 hpi				mH2A1;macroH2A1	
+200209820	GSE209820	Bess	KO	T	WT, 12 hpi	KO, 12 hpi				mH2A1;macroH2A1	
+200209820	GSE209820	Bess	KO	T	WT, Mock	KO, Mock				mH2A1;macroH2A1	4 timepoints for post infection (or mock infection).
+200220491	GSE220491	Bess	OM	T	Col_ip_	pCND1_ip_		pCND1_input		CND1;CHLOROPLAST AND NUCLEUS DUAL-LOCALIZED PROTEIN 1;cnd1	
+200168143	GSE168143	Bess	KO	T	IL-4Rα+/+	IL-4Rα-/-				IL-4Rα;IL-4R{alpha}	
+200159009	GSE159009	Bess	N								
+200133458	GSE133458	Bess	N								
+200113030	GSE113030	Bess	OM	T	genotype: wildtype	genotype: Ly5.1(mut)				Ly5.1	
+200196176	GSE196176	Bess	N								
+200229394	GSE229394	Bess	N								
+200078489	GSE78489	Bess	N								
+200160662	GSE160662	Bess	N								
+200115605	GSE115605	Bess	N								
+200112567	GSE112567	Bess	D	T		m19z CAR T cells				CD19-targeted CAR;3T3-mCD19;anti-mouse dynabeads;CD19-targeted chimeric antigen receptors	
+200112567	GSE112567	Bess	D	T		m1928z CAR T cells				CD19-targeted CAR;3T3-mCD19;anti-mouse dynabeads;CD19-targeted chimeric antigen receptors	
+200112567	GSE112567	Bess	D	T		m19-musBBz CAR T cells				CD19-targeted CAR;3T3-mCD19;anti-mouse dynabeads;CD19-targeted chimeric antigen receptors	No controls.
+200131411	GSE131411	Bess	N								
+200197972	GSE197972	Bess	N								
+200185641	GSE185641	Bess	D	T	G24con	G24P3				saline-alkali water	
+200185641	GSE185641	Bess	D	T	G24con	G24P6				saline-alkali water	
+200185641	GSE185641	Bess	D	T	G48con	G48P3				saline-alkali water	
+200185641	GSE185641	Bess	D	T	G48con	G48P6				saline-alkali water	
+200185641	GSE185641	Bess	D	T	G7dcon	G7dP3				saline-alkali water	
+200185641	GSE185641	Bess	D	T	G7dcon	G7dP6				saline-alkali water	3 timepoints, 2 different water concentrations.
+200122393	GSE122393	Bess	KO	T	WT-	KO-				HDAC3	
+200150646	GSE150646	Bess	OE	T	WT_5m	TG_5m				SNCA	
+200150646	GSE150646	Bess	OE	T	WT_12m	TG_12m				SNCA	2 timepoints.
+200122735	GSE122735	Bess	D	T	CTRL resting	JQ1 resting				JQ1	
+200122735	GSE122735	Bess	D	T	CTRL activated	JQ1 activated				JQ1	2 variables: JQ1/DMSO, activated/resting.
+200111080	GSE111080	Bess	OM	T	WT	MUT	tissue:			Slc39a8	
+200108077	GSE108077	Bess	N								
+200158697	GSE158697	Bess	N								
+200189186	GSE189186	Bess	D	T	DMSO	Olaparib	cell line:			olaparib;Olaparib	
+200183924	GSE183924	Bess	D	T		Patient				Durvalumab;durvalumab	No controls.
+200259221	GSE259221	Bess	KD	T	control	shRNA targeting EVI1				EVI1;ecotropic viral integration site-1	
+200142378	GSE142378	Bess;Cole	D	T	noDox	+48hDox	strain genotype/variation:			Dox;Doxycycline	
+200142378	GSE142378	Bess;Cole	OE	T	noDox(iFlag.Hoxc6)	48hDox(iFlag.Hoxc6)				Hoxc6	
+200142378	GSE142378	Bess;Cole	OE	T		48hDox(iFlag.Hoxc8)				Hoxc8	No controls
+200142378	GSE142378	Bess;Cole	OE	T		48hDox(iFlag.Hoxc9)				Hoxc9	No controls
+200142378	GSE142378	Bess;Cole	OE	T		48hDox(iFlag.Hoxc10)				Hoxc10	No controls
+200132882	GSE132882	Bess	N								
+200210261	GSE210261	Bess	N								
+200115177	GSE115177	Bess	OE	T	WT-3M	TG-3M				N40K	
+200115177	GSE115177	Bess	OE	T	WT-12M	TG-12M				N40K	2 timepoints.
+200158937	GSE158937	Bess	N								
+200045657	GSE45657	Bess	N								
+200199701	GSE199701	Bess;Cole	D	G	GSM5981800;GSM5981801;GSM5981802	GSM5981803;GSM5981804;GSM5981805				5-aza-dC	NOT_RNA
+200199701	GSE199701	Bess;Cole	D	T	_DMSO_	_5-aza-dC_	cell line:		RNA-seq_Jurkat-	5-aza-dC	
+200199701	GSE199701	Bess;Cole	KD	T	shRen	shTLX3				TLX3	
+200199701	GSE199701	Bess;Cole	OE	T	_control_	_TLX3-OE_			RNA-seq_Jurkat_	TLX3	
+200199701	GSE199701	Bess;Cole	D	T	_DMSO_	_5-aza-dC_	cell line:		RPBS_Jurkat-	5-aza-dC	NOT_RNA
+200139371	GSE139371	Bess;Cole	KO	T	F/F	KO	cell_type:			Hamp	
+200104462	GSE104462	Bess	D	T	reagent: None	reagent: Erastin				erasin;Erastin	
+200104462	GSE104462	Bess	D	T	reagent: None	reagent: Ferrostatin-1				Ferrostatin;ferrostatin-1	
+200203247	GSE203247	Bess	D	T	Vehicle_	SR-3420_				SR-3420	
+200066911	GSE66911	Bess;Cole	OM	T	3b strain	dot1delta 				dot1;Dot1	NOT_RNA
+200066911	GSE66911	Bess;Cole	OM	T		set1delta				set1;Set1	No controls.	NOT_RNA
+200066911	GSE66911	Bess;Cole	N								
+200225701	GSE225701	Bess;Cole	D	T	cp0_16H	cp2_16H				calcium palmitate;CP	
+200225701	GSE225701	Bess;Cole	D	T	cp0_5H	cp2_5H				calcium palmitate;CP	
+200197210	GSE197210	Bess	KD	T	HEC1B_Sh_EV_	HEC1B_Sh_FOXA2_				FOXA2;Foxa2	
+200116181	GSE116181	Bess	KO	T	WT	Tet2-KO				Tet2	
+200168774	GSE168774	Bess	N								
+200119393	GSE119393	Bess	D	T	_UT	_R848	silencing:			R848	
+200119393	GSE119393	Bess;Cole	KD	T	_siC	_siOCT2	treatment:			OCT2	
+200222446	GSE222446	Bess	N								
+200158979	GSE158979	Bess	OM	T	_WT	_Tex11				TEXT11;Tex11;Text11	
+200200516	GSE200516	Bess	N								
+200178867	GSE178867	Bess	OE	T		hsa-miR-106b-5p				miR-106b-5p	
+200178867	GSE178867	Bess	OE	T		hsa-miR-93-5p				miR-93-5p	
+200178867	GSE178867	Bess	OE	T		hsa-miR-25-3p				miR-25-3p	
+200178867	GSE178867	Bess	OE	T		cel-miR-67				miR-67	No controls.
+200249232	GSE249232	Bess	N								
+200099837	GSE99837	Bess	KO	T	WT	KO	treatment:			Nr4a3;NR4A3	
+200099837	GSE99837	Bess;Cole	D	T	undifferentiated	culture with GMCSF+IL4	genotype:			GMCSF;GM-CSF&IL4;IL-4	
