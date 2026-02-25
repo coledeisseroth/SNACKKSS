@@ -89,5 +89,5 @@ for line in open(sys.argv[1]):
         newdescs2.append(newdesc2)
     outstring = "; ".join(newdescs2)
     if not outstring: outstring = "IDENTICAL"
-    print("\t".join(line) + "\t" + outstring)
+    print("\t".join(line) + "\t" + outstring, flush=True)
 

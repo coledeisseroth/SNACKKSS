@@ -1,3 +1,4 @@
+exit
 #Run the BERT classifiers
 for pert in gene drug; do
 mkdir -p $pert
@@ -9,7 +10,9 @@ done
 
 #Map the extracted targets to their Entrez and PubChem IDs
 for species in human mouse; do
-cat gene/predictions.txt | sort -k1,1 | join -t$'\t' - <(cat ../metadata/$species/sample_info.txt | cut -f2 | sort -u) | awk 'BEGIN {FS = "\t"} {gsub(";", "\t", $2); print $1 "\t" $3 "\t" $2}' | awk 'BEGIN {FS = "\t"} {for(i=3; i <= NF; i++){gsub("-", "\t", $i); gsub(":", "\t", $i); print $1 "\t" $i "\t" $2}}' | awk 'BEGIN {FS = "\t"} {gsub("_.*", "", $1); print $1 "\t" substr($5, $2+1, $3 - $2) ":" $4}' | grep ":GENE" | sed 's/:GENE//g' | sort -u | awk 'BEGIN {FS = "\t"} {print tolower($2) "\t" $0}' | sort -t$'\t' -k1,1 | join -t$'\t' -1 1 -2 2 - <(cat ../corpora/entrez/${species}_aliases_tall_clean.txt | sort -t$'\t' -k2,2) | cut -f2-
+if [ $(echo $species | grep human | wc -l) -gt 0 ]; then taxname="Homo_sapiens"
+else taxname="Mus_musculus"; fi
+cat gene/predictions.txt | sort -k1,1 | join -t$'\t' - <(cat ../metadata/$species/sample_species.txt | sed 's/ /_/g' | awk '$2 == "'$taxname'"' | cut -f1 | sort -u) | awk 'BEGIN {FS = "\t"} {gsub(";", "\t", $2); print $1 "\t" $3 "\t" $2}' | awk 'BEGIN {FS = "\t"} {for(i=3; i <= NF; i++){gsub("-", "\t", $i); gsub(":", "\t", $i); print $1 "\t" $i "\t" $2}}' | awk 'BEGIN {FS = "\t"} {gsub("_.*", "", $1); print $1 "\t" substr($5, $2+1, $3 - $2) ":" $4}' | grep ":GENE" | sed 's/:GENE//g' | sort -u | awk 'BEGIN {FS = "\t"} {print tolower($2) "\t" $0}' | sort -t$'\t' -k1,1 | join -t$'\t' -1 1 -2 2 - <(cat ../corpora/entrez/${species}_aliases_tall_clean.txt | sort -t$'\t' -k2,2) | cut -f2-
 done > gene/predicted_entity_options.txt
 for split in $(ls ../corpora/pubchem/split_100K_clean/); do
 python3 ../src/clean_column.py <(cat drug/predictions.txt | awk 'BEGIN {FS = "\t"} {gsub(";", "\t", $2); print $1 "\t" $3 "\t" $2}' | awk 'BEGIN {FS = "\t"} {for(i=3; i <= NF; i++){gsub("-", "\t", $i); gsub(":", "\t", $i); print $1 "\t" $i "\t" $2}}' | awk 'BEGIN {FS = "\t"} {gsub("_.*", "", $1); print $1 "\t" substr($5, $2+1, $3 - $2) ":" $4}' | grep ":CHEM" | sed 's/:CHEM//g' | sort -u | awk 'BEGIN {FS = "\t"} {print tolower($2) "\t" $0}') 0 | sort -t$'\t' -k1,1 | join -t$'\t' -1 1 -2 2 - <(cat ../corpora/pubchem/split_100K_clean/$split | sort -t$'\t' -k2,2) | cut -f2-

@@ -10,6 +10,7 @@ RUN pip install numpy==1.26.4
 RUN pip install biopython==1.85
 RUN pip install seqeval==1.2.2
 RUN pip install accelerate==0.28.0
+RUN pip install h5py==3.11.0
 COPY docker_setup.sh .
 
 CMD bash docker_setup.sh

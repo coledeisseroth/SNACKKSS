@@ -1,3 +1,4 @@
+exit
 #Get the pairs of samples where one has exactly one less perturbation than the other
 for pert in gene drug; do
 mkdir -p $pert
@@ -15,14 +16,21 @@ rm -r $pert/minusone
 cat ../metadata/*/sample_info.txt | cut -f-2 | sort -k2,2 | join -t$'\t' -1 2 -2 1 - <(cat $pert/minusone_pairs.txt | cut -f1 | uniq | sort -u) | cut -f2 | sort -u | join -t$'\t' - <(cat ../metadata/*/sample_info.txt | sort -k1,1) | sort -u > $pert/shortened_sample_info.txt
 done
 
+#Only look at studies with a non-exorbitant number of comparisons (<10000) to do:
+for pert in gene drug; do
+cat $pert/minusone_pairs.txt | cut -f1 | uniq -c | awk '{print $2 "\t" $1}' | sort -k1,1 | join -t$'\t' -1 1 -2 2 - <(cat $pert/shortened_study_samples.txt | sort -k2,2) | sort -k3,3 | awk 'BEGIN {FS = "\t"; cur = ""; samples = ""; count = 0} {if(cur != "" && cur != $3){print cur "\t" count "\t" samples; count = 0; samples = ""} cur = $3; count += $2; samples = samples ";" $1} END {print cur "\t" count "\t" samples}' | sed 's/\t;/\t/g' | awk '$2 < 10000' | cut -f3 | sed 's/;/\n/g' | sort -u > $pert/acceptable_samples.txt
+done
+
 #Run the alignment--also, remove anything that has either control-prohibitive differences, or more differing fields than you've ever seen for an experiment/control pair. This cap is eight.
 for pert in gene drug; do
 mkdir -p $pert/alignments
 for split in $(seq 1000 1999 | cut -b2-); do
 max_items=8
-python3 ../src/align_sample_descriptions.py <(cat $pert/minusone_pairs.txt | grep $split$'\t' | sort -u | sort -t$'\t' -k1,1 | join -t$'\t' - <(cat $pert/shortened_sample_info.txt | cut -f2- | grep $split$'\t' | sort -t$'\t' -k1,1) | sort -t$'\t' -k2,2 | join -t$'\t' -1 2 -2 1 - <(cat $pert/shortened_sample_info.txt | cut -f2- | sort -t$'\t' -k1,1) | sort -k1,1 -k2,2 -u | awk 'BEGIN {FS = "\t"}{print ".\t" $2 "\t" $3 "\t" $1 "\t" $4}') | cut -f2,4,6 | awk 'BEGIN {FS = "; "} NF <= '$max_items | grep -vif <(cat ../corpora/SNACKKSS_MC/corrected_curated_dataset.txt | awk 'BEGIN {FS = "\t"} NR > 1' | cut -f8 | grep -vf ../corpora/lexica/${pert}_control_prohibitive_exceptions.txt | sed 's/\t/\n/g' | sed 's/;/\n/g' | awk '$1 != ""' | sort -u) > $pert/alignments/$split.txt
+while [ $(jobs | grep Running | wc -l) -gt 10 ]; do jobs; sleep 1; done
+python3 ../src/align_sample_descriptions.py <(cat $pert/minusone_pairs.txt | grep $split$'\t' | sort -u | sort -t$'\t' -k1,1 | join -t$'\t' - <(cat $pert/acceptable_samples.txt) | join -t$'\t' - <(cat $pert/shortened_sample_info.txt | cut -f2- | grep $split$'\t' | sort -t$'\t' -k1,1) | sort -t$'\t' -k2,2 | join -t$'\t' -1 2 -2 1 - <(cat $pert/shortened_sample_info.txt | cut -f2- | sort -t$'\t' -k1,1) | sort -k1,1 -k2,2 -u | awk 'BEGIN {FS = "\t"}{print ".\t" $2 "\t" $3 "\t" $1 "\t" $4}') | cut -f2,4,6 | awk 'BEGIN {FS = "; "} NF <= '$max_items | grep -vif <(cat ../corpora/SNACKKSS_MC/corrected_curated_dataset.txt | awk 'BEGIN {FS = "\t"} NR > 1' | cut -f8 | grep -vf ../corpora/lexica/${pert}_control_prohibitive_exceptions.txt | sed 's/\t/\n/g' | sed 's/;/\n/g' | awk '$1 != ""' | sort -u) > $pert/alignments/$split.txt &
 done
 done
+while [ $(jobs | grep Running | wc -l) -gt 0 ]; do jobs; sleep 1; done
 
 #Chew the descriptions, and don't consider the ones with more than 500 tokens
 for pert in gene drug; do

@@ -1,3 +1,4 @@
+exit
 #Here we curate the metadata from GEO that we will ultimately be parsing through with our NLP tools.
 #Note that this script is designed to minimize redundancy and repeat downloads as little as possible and recover anything that was missed by previous runs.
 #Naturally, this script will not have replicable output.
@@ -52,7 +53,7 @@ done
 #Assemble tables of study and sample info
 for species in human mouse; do
 touch $species/study_info.txt
-for file in $(ls $species/soft_files | grep GSE | awk 'BEGIN {FS = "_"} {print $1 "\t" $0}' | sort -k1,1 | join -a 1 -o auto -e 0 - <(cat $species/study_info.txt | cut -f1 | sort -u | awk '{print $1 "\t1"}' | sort -k1,1) | awk '$3 == 0' | cut -f2 | sort -u); do zcat $species/soft_files/$file | sed 's/\r//g' | grep -wf ../corpora/lexica/series_useful_fields.txt | sort -u | cut -d' ' -f3- | paste -sd$'\t' | sed 's/\t/. /g' | sed 's/\.\. /. /g' | awk '{print "'$(echo $file | cut -d_ -f1)'\t" $0}'; done | sed 's/"//g' | sed 's/\\//g' | sort -u > $species/study_info_new.txt
+for file in $(ls $species/soft_files | grep GSE | awk 'BEGIN {FS = "_"} {print $1 "\t" $0}' | sort -k1,1 | join -t$'\t' -a 1 -o auto -e 0 - <(cat $species/study_info.txt | cut -f1 | sort -u | awk '{print $1 "\t1"}' | sort -k1,1) | awk '$3 != 1' | cut -f2 | sort -u); do zcat $species/soft_files/$file | sed 's/\r//g' | grep -wf ../corpora/lexica/series_useful_fields.txt | sort -u | cut -d' ' -f3- | paste -sd$'\t' | sed 's/\t/. /g' | sed 's/\.\. /. /g' | awk '{print "'$(echo $file | cut -d_ -f1)'\t" $0}'; done | sed 's/"//g' | sed 's/\\//g' | sort -u > $species/study_info_new.txt
 cat $species/study_info.txt $species/study_info_new.txt | sort -u > tmp
 mv tmp $species/study_info.txt
 touch $species/sample_info.txt
@@ -64,9 +65,13 @@ for study in $(ls $species/soft_files/ | cut -d_ -f1 | grep GSE | sort -u | comm
 cat $species/sample_info_protocols.txt $species/sample_info_protocols_new.txt | sort -u > tmp
 mv tmp $species/sample_info_protocols.txt
 touch $species/sample_library_strategy.txt
-for study in $(ls $species/soft_files/ | cut -d_ -f1 | grep GSE | sort -u | comm -23 - <(cat $species/sample_library_strategy.txt | cut -f1 | uniq | sort -u)); do zcat $species/soft_files/${study}_family.soft.gz | grep -f <(echo "\^SAMPLE"; echo '!Sample_library_strategy') | paste -s | sed 's/;/$SEMICOLON$/g' | awk '{print $0 ";"}' | sed 's/\t/; /g' | sed 's/\^SAMPLE = /\n/g' | awk '{printstring = $1 "\t"; for(i = 2; i <= NF; i += 1){printstring = printstring " " $i} print printstring}' | sed 's/;\t /\t/g' | rev | cut -d';' -f2- | rev | awk 'NR > 1 {print "'$study'\t" $0}' | sort -u; done | cut -f2,3 | sed 's/!Sample_library_strategy = //g' | sort -u > $species/sample_library_strategy_new.txt
+for study in $(cat $species/sample_library_strategy.txt | cut -f1 | sort -u | comm -13 - <(cat $species/sample_info.txt | cut -f2 | sort -u) | sort -u | join -t$'\t' -1 1 -2 2 - <(cat $species/sample_info.txt | cut -f-2 | sort -k2,2) | cut -f2 | sort -u); do zcat $species/soft_files/${study}_family.soft.gz | grep -f <(echo "\^SAMPLE"; echo '!Sample_library_strategy') | paste -s | sed 's/;/$SEMICOLON$/g' | awk '{print $0 ";"}' | sed 's/\t/; /g' | sed 's/\^SAMPLE = /\n/g' | awk '{printstring = $1 "\t"; for(i = 2; i <= NF; i += 1){printstring = printstring " " $i} print printstring}' | sed 's/;\t /\t/g' | rev | cut -d';' -f2- | rev | awk 'NR > 1 {print "'$study'\t" $0}' | sort -u; done | cut -f2,3 | sed 's/!Sample_library_strategy = //g' | sort -u > $species/sample_library_strategy_new.txt
 cat $species/sample_library_strategy.txt $species/sample_library_strategy_new.txt | sort -u > tmp
 mv tmp $species/sample_library_strategy.txt
+touch $species/sample_species.txt
+for study in $(cat $species/sample_species.txt | cut -f1 | sort -u | comm -13 - <(cat $species/sample_info.txt | cut -f2 | sort -u) | sort -u | join -t$'\t' -1 1 -2 2 - <(cat $species/sample_info.txt | cut -f-2 | sort -k2,2) | cut -f2 | sort -u); do zcat $species/soft_files/${study}_family.soft.gz | grep -f <(echo "\^SAMPLE"; echo '!Sample_organism_ch1') | paste -s | sed 's/;/$SEMICOLON$/g' | awk '{print $0 ";"}' | sed 's/\t/; /g' | sed 's/\^SAMPLE = /\n/g' | awk '{printstring = $1 "\t"; for(i = 2; i <= NF; i += 1){printstring = printstring " " $i} print printstring}' | sed 's/;\t /\t/g' | rev | cut -d';' -f2- | rev | awk 'NR > 1 {print "'$study'\t" $0}' | sort -u; done | cut -f2,3 | sed 's/!Sample_organism_ch1 = //g' | sort -u > $species/sample_species_new.txt
+cat $species/sample_species.txt $species/sample_species_new.txt | sort -u > tmp
+mv tmp $species/sample_species.txt
 touch $species/sample_srx.txt
 for study in $(ls $species/soft_files/ | cut -d_ -f1 | grep GSE | sort -u | comm -23 - <(cat $species/sample_srx.txt | cut -f1 | uniq | sort -u)); do zcat $species/soft_files/${study}_family.soft.gz | grep -f <(echo "\^SAMPLE"; echo '!Sample_relation = SRA: ') | paste -s | awk '{print $0 ";"}' | sed 's/\t/; /g' | sed 's/\^SAMPLE = /\n/g' | awk '{printstring = $1 "\t"; for(i = 2; i <= NF; i += 1){printstring = printstring " " $i} print printstring}' | sed 's/;\t /\t/g' | rev | cut -d';' -f2- | rev | awk 'NR > 1 {print "'$study'\t" $0}' | sort -u; done | cut -f2,3 | sed 's/!Sample_relation = SRA: https:\/\/www.ncbi.nlm.nih.gov\/sra?term=//g' | sort -u > $species/sample_srx_new.txt
 cat $species/sample_srx.txt $species/sample_srx_new.txt | sort -u > tmp
