@@ -1,4 +1,3 @@
-exit
 #Here we curate the metadata from GEO that we will ultimately be parsing through with our NLP tools.
 #Note that this script is designed to minimize redundancy and repeat downloads as little as possible and recover anything that was missed by previous runs.
 #Naturally, this script will not have replicable output.

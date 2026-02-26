@@ -1,4 +1,3 @@
-exit
 for pert in gene drug; do
 mkdir -p $pert
 touch $pert/predictions.txt

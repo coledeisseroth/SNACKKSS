@@ -1,4 +1,3 @@
-exit
 #Get the pairs of samples where one has exactly one less perturbation than the other
 for pert in gene drug; do
 mkdir -p $pert

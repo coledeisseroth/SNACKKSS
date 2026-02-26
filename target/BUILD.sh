@@ -1,4 +1,3 @@
-exit
 #Run the BERT classifiers
 for pert in gene drug; do
 mkdir -p $pert

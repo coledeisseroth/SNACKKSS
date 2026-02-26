@@ -1,4 +1,3 @@
-exit
 cd archs4
 bash BUILD.sh
 cd ../dee2
