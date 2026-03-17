@@ -15,3 +15,8 @@ docker load -i snackkss-pipeline.tar
 
 docker run -v $(pwd)/:/app/ snackkss-pipeline
 
+# Licensing and disclaimer
+
+SNACKKSS provides no warranty whatsoever for how its predictions are used. Furthermore, it should never be used to guide medical decision-making. SNACKKSS is licensed under the Creative Commons License v4.0.
+
+https://creativecommons.org/licenses/by/4.0/
